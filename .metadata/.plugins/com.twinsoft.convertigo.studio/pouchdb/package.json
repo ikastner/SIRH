@@ -1,0 +1,11 @@
+{
+  "name": "pouchdb-server",
+  "author": "Convertigo & Ionic 6 Framework",
+  "homepage": "http:\/\/www.convertigo.com\/",
+  "private": true,
+  "dependencies": {
+    "pouchdb-server": "4.2.0",
+    "pouchdb-adapter-leveldb": "7.2.2"
+  },
+  "description": "A Convertigo \/ Ionic project"
+}

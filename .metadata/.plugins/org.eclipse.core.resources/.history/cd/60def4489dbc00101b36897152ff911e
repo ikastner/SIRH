@@ -1,0 +1,144 @@
+.main-content {
+  background: #eff4ff;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  overflow-y: auto;
+  flex: 1;
+  min-height: 100vh;
+}
+
+.dashboard-header-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* Forcer tous les enfants du header-card à prendre toute la largeur */
+.dashboard-header-card > * {
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.dashboard-content-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: stretch;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* S'assurer que les filtres prennent toute la largeur */
+.dashboard-content-card > *:not(:last-child) {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Le tableau doit prendre toute la largeur disponible */
+.dashboard-content-card > *:last-child {
+  width: 100%;
+  max-width: 100%;
+  align-self: stretch;
+}
+
+/* Assurer que le tableau prend 100% de la largeur disponible */
+.dashboard-content-card ::ng-deep * {
+  max-width: 100%;
+}
+
+.dashboard-content-card ::ng-deep .table-container {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 100% !important;
+  overflow-x: auto;
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+  display: block !important;
+}
+
+.dashboard-content-card ::ng-deep .requests-table {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 100% !important;
+  table-layout: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+  border-collapse: collapse !important;
+  display: table !important;
+}
+
+/* S'assurer que toutes les colonnes utilisent l'espace disponible */
+.dashboard-content-card ::ng-deep .requests-table th,
+.dashboard-content-card ::ng-deep .requests-table td {
+  box-sizing: border-box !important;
+}
+
+/* Styles pour les onglets - Forcer la largeur complète */
+.dashboard-header-card ::ng-deep .role-tabs,
+.dashboard-header-card .role-tabs {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 100% !important;
+  align-self: stretch !important;
+  display: flex !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+}
+
+/* Forcer le conteneur header-card à prendre toute la largeur */
+.dashboard-header-card {
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* Forcer le tableau à prendre toute la largeur - styles encore plus agressifs */
+.dashboard-content-card,
+.dashboard-content-card * {
+  box-sizing: border-box !important;
+}
+
+.dashboard-content-card ::ng-deep .table-container,
+.dashboard-content-card .table-container {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 100% !important;
+}
+
+.dashboard-content-card ::ng-deep .requests-table,
+.dashboard-content-card .requests-table {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 100% !important;
+  table-layout: auto !important;
+}

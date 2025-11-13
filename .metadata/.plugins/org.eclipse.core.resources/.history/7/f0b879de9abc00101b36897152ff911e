@@ -1,0 +1,196 @@
+import { Component }																	from '@angular/core';
+import { Router, ActivatedRoute } 														from '@angular/router';
+import { DomSanitizer }                 												from '@angular/platform-browser';
+import { NavParams, NavController, LoadingController, MenuController, Platform}			from '@ionic/angular';
+import { AlertController, ActionSheetController, ModalController }						from '@ionic/angular';
+import { AnimationController, PopoverController, ToastController }						from '@ionic/angular';
+import { C8oPage, C8oPageBase, C8oRouter, C8oCafUtils }                      			from 'c8ocaf';
+import { C8oNetworkStatus }                                 							from 'c8osdkangular';
+import { ChangeDetectorRef, ChangeDetectionStrategy, InjectionToken, Injector, Type}	from "@angular/core";
+import { TranslateService }                                 							from '@ngx-translate/core';
+import { ActionBeans } 																	from '../../services/actionbeans.service';
+import { Events } 																		from '../../services/events.service';
+
+/*
+	You can customize your page class by writing code between the :
+   		Begin_c8o_XXXX and
+   		End_c8o_XXXX
+   	Comments.
+   	Any code placed outside these these comments will be lost when the application is generated
+*/
+import { ViewChild } from '@angular/core';
+import { ViewChildren } from '@angular/core';
+import { QueryList } from '@angular/core';
+import * as ts from 'typescript';
+
+
+/*Begin_c8o_PageImport*/
+/*End_c8o_PageImport*/
+
+@Component({selector: 'page-page', templateUrl: 'page.html', styleUrls: ['page.scss'], changeDetection: ChangeDetectionStrategy.Default})
+export class Page  extends C8oPage {
+	
+	@ViewChild("comp1763104000001", { static: false }) public comp1763104000001;
+	@ViewChildren("comp1763104000001") public all_comp1763104000001 : QueryList<any>;
+	@ViewChild("lib_component_sirh_dashboardheaderwithtabs", { static: false }) public lib_component_sirh_dashboardheaderwithtabs;
+	@ViewChildren("lib_component_sirh_dashboardheaderwithtabs") public all_lib_component_sirh_dashboardheaderwithtabs : QueryList<any>;
+	@ViewChild("comp1763004000001", { static: false }) public comp1763004000001;
+	@ViewChildren("comp1763004000001") public all_comp1763004000001 : QueryList<any>;
+	@ViewChild("lib_component_sirh_dashboardfilters", { static: false }) public lib_component_sirh_dashboardfilters;
+	@ViewChildren("lib_component_sirh_dashboardfilters") public all_lib_component_sirh_dashboardfilters : QueryList<any>;
+	@ViewChild("comp1763003000001", { static: false }) public comp1763003000001;
+	@ViewChildren("comp1763003000001") public all_comp1763003000001 : QueryList<any>;
+	@ViewChild("lib_component_sirh_dashboardtable", { static: false }) public lib_component_sirh_dashboardtable;
+	@ViewChildren("lib_component_sirh_dashboardtable") public all_lib_component_sirh_dashboardtable : QueryList<any>;
+
+	public navParams : NavParams;
+	public events : Events;
+	public subscriptions = {};
+	public actionBeans: ActionBeans;
+	public JSON: JSON = window.JSON;
+	public static nameStatic: string = "Page";
+	/*Begin_c8o_PageDeclaration*/
+	tableData: any[] = 
+	[
+  {
+    "pourQui": "Victor Martin",
+    "motif": "Accès spécifique",
+    "siteEspace": "Acoss Montreuil WI",
+    "locaux": "DSI La fabrique",
+    "dateDemande": "01/05/2025",
+    "statut": "En attente",
+    "statutType": "pending"
+  },
+  {
+    "pourQui": "Elodie Dubois",
+    "motif": "Départ anticipé",
+    "siteEspace": "Acoss Lyon Part-Dieu",
+    "locaux": "Direction Financière",
+    "dateDemande": "15/07/2024",
+    "statut": "En attente",
+    "statutType": "pending"
+  },
+  {
+    "pourQui": "Jean-Pierre Leclerc",
+    "motif": "Badge hors service",
+    "siteEspace": "Acoss Marseille Prado",
+    "locaux": "Service Juridique",
+    "dateDemande": "22/08/2024",
+    "statut": "Refusé",
+    "statutType": "refused"
+  },
+  {
+    "pourQui": "Chloé Lambert",
+    "motif": "Création",
+    "siteEspace": "Acoss Bordeaux Mériadeck",
+    "locaux": "Pôle RH",
+    "dateDemande": "03/09/2024",
+    "statut": "En attente",
+    "statutType": "pending"
+  },
+  {
+    "pourQui": "Lucas Moreau",
+    "motif": "Prolongation",
+    "siteEspace": "Acoss Lille Europe",
+    "locaux": "Département IT",
+    "dateDemande": "18/10/2024",
+    "statut": "En attente",
+    "statutType": "pending"
+  },
+  {
+    "pourQui": "Manon Girard",
+    "motif": "Création",
+    "siteEspace": "Acoss Toulouse Compans",
+    "locaux": "Cellule Communication",
+    "dateDemande": "05/11/2024",
+    "statut": "Validé",
+    "statutType": "validated"
+  },
+  {
+    "pourQui": "Thomas Petit",
+    "motif": "Badge perdu",
+    "siteEspace": "Acoss Nantes Atlantis",
+    "locaux": "Support Technique",
+    "dateDemande": "12/12/2024",
+    "statut": "Clôturé",
+    "statutType": "closed"
+  },
+  {
+    "pourQui": "Camille Rousseau",
+    "motif": "Création",
+    "siteEspace": "Acoss Strasbourg Etoile",
+    "locaux": "Archives Centrales",
+    "dateDemande": "20/01/2025",
+    "statut": "Clôturé",
+    "statutType": "closed"
+  },
+  {
+    "pourQui": "Nicolas Royer",
+    "motif": "Badge hors service",
+    "siteEspace": "Acoss Rennes Atalante",
+    "locaux": "Sécurité et Accès",
+    "dateDemande": "14/02/2025",
+    "statut": "Validé",
+    "statutType": "validated"
+  }
+]
+	activeRole: string = "manager"
+	rolesData: any[] = [{"id": "collaborateur", "label": "Collaborateur"}, {"id": "manager", "label": "Manager"}, {"id": "pc_securite", "label": "PC Sécurité"}]
+	/*End_c8o_PageDeclaration*/
+
+	constructor(routerProvider: C8oRouter, private route: ActivatedRoute, private angularRouter: Router, loadingCtrl: LoadingController, sanitizer: DomSanitizer, ref: ChangeDetectorRef, injector: Injector, menuCtrl: MenuController, public translate: TranslateService){
+		super(routerProvider, loadingCtrl, sanitizer, ref, injector, menuCtrl);
+		this.events = this.getInstance(Events);
+		this.actionBeans = this.getInstance(ActionBeans);
+
+        let updateNavParams = function(route: ActivatedRoute) {
+			let params = {}
+			Object.assign(params, route.snapshot.params)
+			Object.assign(params, route.snapshot.queryParams)
+			return new NavParams(params)
+		}
+
+		try {
+			// for PopoverController, ModalController
+			let params = this.getInstance(NavParams).data
+			this.navParams = new NavParams(params)
+		} catch (e) {
+			// for NavController (based on angular router)
+			this.navParams = updateNavParams(this.route)
+			this.route.queryParams.subscribe(queryParameters => {
+				this.navParams = updateNavParams(this.route)
+			})
+		}
+				
+		
+		this.startMenuId = 'Menu';
+		
+		
+		/*Begin_c8o_PageConstructor*/
+		/*End_c8o_PageConstructor*/
+		
+    }
+	
+	instance() {
+		return this;
+	}
+	
+	public merge(firstObj: Object, secondObj): Object{
+	    return Object.assign(firstObj, secondObj);
+	}
+	
+	public log(val) {
+	    console.log(val);
+	}
+	
+	public navigate(url: string, data: any) {
+	    this.angularRouter.navigate([url], { queryParams: data });
+	}
+	
+	public navigateByUrl(url: string){
+	    this.angularRouter.navigateByUrl(url);
+	}
+	
+	/*Begin_c8o_PageFunction*/
+	/*End_c8o_PageFunction*/
+}

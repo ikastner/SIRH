@@ -1,0 +1,56 @@
+[Thu, 06 Nov 2025 11:04:28 GMT] [info] [<0.000.0>] pouchdb-server has started on http://127.0.0.1:5981/
+[Thu, 06 Nov 2025 11:04:28 GMT] [info] [<0.000.0>] database files will be saved to databases
+[Thu, 06 Nov 2025 11:04:28 GMT] [info] [<0.000.0>] navigate to http://127.0.0.1:5981/_utils for the Fauxton UI.
+[Thu, 06 Nov 2025 11:04:29 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET / 200
+[Sat, 08 Nov 2025 02:48:15 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET / 200
+[Sat, 08 Nov 2025 02:48:16 GMT] [info] [<0.000.0>] pouchdb-server has started on http://127.0.0.1:5990/
+[Sat, 08 Nov 2025 02:48:16 GMT] [info] [<0.000.0>] database files will be saved to databases
+[Sat, 08 Nov 2025 02:48:16 GMT] [info] [<0.000.0>] navigate to http://127.0.0.1:5990/_utils for the Fauxton UI.
+[Sat, 08 Nov 2025 02:48:16 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET / 200
+[Sat, 08 Nov 2025 03:01:32 GMT] [info] [<0.000.0>] pouchdb-server has started on http://127.0.0.1:5981/
+[Sat, 08 Nov 2025 03:01:32 GMT] [info] [<0.000.0>] database files will be saved to databases
+[Sat, 08 Nov 2025 03:01:32 GMT] [info] [<0.000.0>] navigate to http://127.0.0.1:5981/_utils for the Fauxton UI.
+[Sat, 08 Nov 2025 03:01:37 GMT] [info] [<0.000.0>] pouchdb-server has started on http://127.0.0.1:5986/
+[Sat, 08 Nov 2025 03:01:37 GMT] [info] [<0.000.0>] database files will be saved to databases
+[Sat, 08 Nov 2025 03:01:37 GMT] [info] [<0.000.0>] navigate to http://127.0.0.1:5986/_utils for the Fauxton UI.
+[Sat, 08 Nov 2025 03:01:38 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET / 200
+[Sat, 08 Nov 2025 03:07:48 GMT] [info] [<0.000.0>] pouchdb-server has started on http://127.0.0.1:5981/
+[Sat, 08 Nov 2025 03:07:48 GMT] [info] [<0.000.0>] database files will be saved to databases
+[Sat, 08 Nov 2025 03:07:48 GMT] [info] [<0.000.0>] navigate to http://127.0.0.1:5981/_utils for the Fauxton UI.
+[Sat, 08 Nov 2025 03:07:52 GMT] [info] [<0.000.0>] pouchdb-server has started on http://127.0.0.1:5982/
+[Sat, 08 Nov 2025 03:07:52 GMT] [info] [<0.000.0>] database files will be saved to databases
+[Sat, 08 Nov 2025 03:07:52 GMT] [info] [<0.000.0>] navigate to http://127.0.0.1:5982/_utils for the Fauxton UI.
+[Sat, 08 Nov 2025 03:07:53 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET / 200
+[Sat, 08 Nov 2025 10:54:57 GMT] [info] [<0.000.0>] pouchdb-server has started on http://127.0.0.1:5981/
+[Sat, 08 Nov 2025 10:54:57 GMT] [info] [<0.000.0>] database files will be saved to databases
+[Sat, 08 Nov 2025 10:54:57 GMT] [info] [<0.000.0>] navigate to http://127.0.0.1:5981/_utils for the Fauxton UI.
+[Sat, 08 Nov 2025 10:54:58 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET / 200
+[Wed, 12 Nov 2025 08:13:02 GMT] [info] [<0.000.0>] pouchdb-server has started on http://127.0.0.1:5981/
+[Wed, 12 Nov 2025 08:13:02 GMT] [info] [<0.000.0>] database files will be saved to databases
+[Wed, 12 Nov 2025 08:13:02 GMT] [info] [<0.000.0>] navigate to http://127.0.0.1:5981/_utils for the Fauxton UI.
+[Wed, 12 Nov 2025 08:13:02 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET / 200
+[Wed, 12 Nov 2025 09:45:09 GMT] [info] [<0.000.0>] pouchdb-server has started on http://127.0.0.1:5981/
+[Wed, 12 Nov 2025 09:45:09 GMT] [info] [<0.000.0>] database files will be saved to databases
+[Wed, 12 Nov 2025 09:45:09 GMT] [info] [<0.000.0>] navigate to http://127.0.0.1:5981/_utils for the Fauxton UI.
+[Wed, 12 Nov 2025 09:45:09 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET / 200
+[Wed, 12 Nov 2025 16:32:57 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /c8ofullsyncgrp/_design/design/_view/get_groups_by_user?reduce=false&key=%22c8o%3Aadmin%22 404
+[Wed, 12 Nov 2025 16:32:57 GMT] [info] [<0.000.0>] 127.0.0.1 - - PUT /c8ofullsyncgrp 201
+[Wed, 12 Nov 2025 16:32:57 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /c8ofullsyncgrp/_design/c8o 404
+[Wed, 12 Nov 2025 16:32:57 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET / 200
+[Wed, 12 Nov 2025 16:32:57 GMT] [info] [<0.000.0>] 127.0.0.1 - - POST /c8ofullsyncgrp 201
+[Wed, 12 Nov 2025 16:32:57 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /c8ofullsyncgrp/_design/design/_view/get_groups_by_user?reduce=false&key=%22c8o%3Aadmin%22 404
+[Wed, 12 Nov 2025 16:32:57 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET / 200
+[Wed, 12 Nov 2025 16:32:57 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET / 200
+[Wed, 12 Nov 2025 16:32:57 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET / 200
+[Wed, 12 Nov 2025 16:32:57 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /_session 200
+[Wed, 12 Nov 2025 16:32:57 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /_all_dbs 200
+[Wed, 12 Nov 2025 16:32:57 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /c8ofullsyncgrp 200
+[Wed, 12 Nov 2025 16:32:57 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /_replicator 200
+[Wed, 12 Nov 2025 16:32:57 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /_users 200
+[Wed, 12 Nov 2025 16:32:57 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /_all_dbs?startkey=%22%22&endkey=%22%E9%A6%99%22&limit=30 200
+[Wed, 12 Nov 2025 16:38:16 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /c8ofullsyncgrp/_design/design/_view/get_groups_by_user?reduce=false&key=%22ivane.kastner%40acoss.fr%22 404
+[Wed, 12 Nov 2025 16:39:09 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /c8ofullsyncgrp/_design/design/_view/get_groups_by_user?reduce=false&key=%22ivane.kastner%40acoss.fr%22 404
+[Wed, 12 Nov 2025 16:40:23 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /c8ofullsyncgrp/_design/design/_view/get_groups_by_user?reduce=false&key=%22ivane.kastner%40acoss.fr%22 404
+[Wed, 12 Nov 2025 16:41:21 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /c8ofullsyncgrp/_design/design/_view/get_groups_by_user?reduce=false&key=%22ivane.kastner%40acoss.fr%22 404
+[Wed, 12 Nov 2025 16:42:18 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /c8ofullsyncgrp/_design/design/_view/get_groups_by_user?reduce=false&key=%22ivane.kastner%40acoss.fr%22 404
+[Wed, 12 Nov 2025 16:43:15 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /c8ofullsyncgrp/_design/design/_view/get_groups_by_user?reduce=false&key=%22ivane.kastner%40acoss.fr%22 404

@@ -1,0 +1,9 @@
+↑convertigo: 8.0.0.m006
+↓mobilebuilder_tpl_8_3_0_ngx [core.Project]: 
+  comment: |
+    MobileBuilder Template project
+    
+    Resources of this project are used as template to build a NGX Builder application.
+  httpSessionTimeout: 300
+  version: 8.3.0
+  ↓void [connectors.HttpConnector]: 🗏 connectors/void.yaml

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+
+<html class="light" lang="fr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Bookly - Résultats de recherche</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+    </style>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#4A90E2", // Dynamic and reassuring blue
+              "background-light": "#F8F9FA",
+              "background-dark": "#102216",
+              "text-light": "#333333",
+              "text-dark": "#E0E0E0",
+              "card-light": "#FFFFFF",
+              "card-dark": "#1A2C20",
+              "border-light": "#E0E0E0",
+              "border-dark": "#334E3C",
+              "accent-availability": "#50E3C2",
+              "accent-rating": "#F5A623",
+            },
+            fontFamily: {
+              "display": ["Plus Jakarta Sans", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.5rem", "lg": "0.75rem", "xl": "1rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="font-display bg-background-light dark:bg-background-dark">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<!-- Top App Bar -->
+<header class="sticky top-0 z-10 flex h-16 items-center border-b border-border-light dark:border-border-dark bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm px-4 justify-between">
+<button class="flex size-10 shrink-0 items-center justify-center rounded-full text-text-light dark:text-text-dark">
+<span class="material-symbols-outlined">arrow_back</span>
+</button>
+<h1 class="text-lg font-bold text-text-light dark:text-text-dark">Bookly</h1>
+<button class="flex size-10 shrink-0 items-center justify-center rounded-full text-text-light dark:text-text-dark">
+<span class="material-symbols-outlined">search</span>
+</button>
+</header>
+<main class="flex flex-col">
+<!-- Filter Chips -->
+<div class="flex gap-2 p-4 overflow-x-auto whitespace-nowrap">
+<button class="flex h-9 shrink-0 items-center justify-center gap-x-2 rounded-full bg-primary/20 text-primary px-4">
+<span class="material-symbols-outlined text-base">plumbing</span>
+<p class="text-sm font-medium leading-normal">Plombier</p>
+</button>
+<button class="flex h-9 shrink-0 items-center justify-center gap-x-2 rounded-full bg-primary/20 text-primary px-4">
+<span class="material-symbols-outlined text-base">location_on</span>
+<p class="text-sm font-medium leading-normal">Paris</p>
+</button>
+<button class="flex h-9 shrink-0 items-center justify-center gap-x-2 rounded-full bg-gray-200 dark:bg-gray-700 text-text-light dark:text-text-dark px-4">
+<span class="material-symbols-outlined text-base">star</span>
+<p class="text-sm font-medium leading-normal">4 étoiles et +</p>
+</button>
+<button class="flex size-9 shrink-0 items-center justify-center rounded-full bg-gray-200 dark:bg-gray-700 text-text-light dark:text-text-dark">
+<span class="material-symbols-outlined text-base">tune</span>
+</button>
+</div>
+<!-- Map and List Toggle -->
+<div class="px-4 pb-2 flex items-center justify-between">
+<p class="text-sm text-text-light/70 dark:text-text-dark/70">12 résultats trouvés</p>
+<button class="flex items-center justify-center gap-2 rounded-full h-9 px-4 bg-gray-200 dark:bg-gray-700 text-text-light dark:text-text-dark text-sm font-medium">
+<span class="material-symbols-outlined text-base">map</span>
+<span>Afficher la carte</span>
+</button>
+</div>
+<!-- Map (Initially hidden, can be toggled) -->
+<!-- <div class="flex px-4 py-3">
+                <div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg object-cover" data-alt="Map view showing locations of professionals in Paris" style='background-image: url("https://placeholder.pics/svg/400x200/F8F9FA/333333/Map%20Placeholder");' data-location="Paris"></div>
+            </div> -->
+<!-- Professionals List -->
+<div class="flex flex-col gap-4 p-4 pt-2">
+<!-- Professional Card 1 -->
+<div class="flex flex-col gap-4 rounded-xl bg-card-light dark:bg-card-dark p-4 border border-border-light dark:border-border-dark">
+<div class="flex items-start justify-between gap-4">
+<div class="flex-1">
+<p class="text-lg font-bold text-text-light dark:text-text-dark">Jean Dupont</p>
+<p class="text-sm text-text-light/80 dark:text-text-dark/80">Plomberie &amp; Chauffage</p>
+<div class="flex items-center gap-1 mt-1">
+<p class="text-sm font-bold text-accent-rating">4.8</p>
+<div class="flex text-accent-rating">
+<span class="material-symbols-outlined !text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined !text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined !text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined !text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined !text-base" style="font-variation-settings: 'FILL' 1;">star_half</span>
+</div>
+</div>
+</div>
+<div class="size-16 bg-center bg-no-repeat bg-cover rounded-full flex-shrink-0" data-alt="Profile picture of Jean Dupont" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAwqIUaM5Q8GwzeyNw9sNaPuul9DPR-JwcJBnFh0op3BqzgpfyiINqnTnZ8-iOogGKupONN8gdKvad0oE7YaIcq3rkqOg2WHw7eYWKozSTuDsJLd0mjAABMm-4hcPAjgoljeJtdRvSbZlwsZVXMTmFwDYA0q5s3irS5yzF4SIRkBLWsKnit_p0wdBHAndNonpC1ErZL-bVaG_Cu9TKPQC68BjDE9gvgGjL2ls3LYNUcyeKT0_aoAY-67AY50GscKkBVThI8t91l2JbE");'></div>
+</div>
+<div class="border-t border-border-light dark:border-border-dark pt-3 flex flex-col gap-3">
+<div class="flex items-center gap-2 text-sm text-text-light/90 dark:text-text-dark/90">
+<span class="material-symbols-outlined !text-xl text-text-light/70 dark:text-text-dark/70">payments</span>
+<span>Dès 50€/h</span>
+</div>
+<div class="flex items-center gap-2 text-sm text-accent-availability font-medium">
+<span class="material-symbols-outlined !text-xl">calendar_today</span>
+<span>Prochain créneau : Demain à 14h</span>
+</div>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-11 px-4 bg-primary text-white text-base font-bold leading-normal w-full">
+<span class="truncate">Voir le profil</span>
+</button>
+</div>
+<!-- Professional Card 2 -->
+<div class="flex flex-col gap-4 rounded-xl bg-card-light dark:bg-card-dark p-4 border border-border-light dark:border-border-dark">
+<div class="flex items-start justify-between gap-4">
+<div class="flex-1">
+<p class="text-lg font-bold text-text-light dark:text-text-dark">Alice Martin</p>
+<p class="text-sm text-text-light/80 dark:text-text-dark/80">Électricité générale</p>
+<div class="flex items-center gap-1 mt-1">
+<p class="text-sm font-bold text-accent-rating">4.9</p>
+<div class="flex text-accent-rating">
+<span class="material-symbols-outlined !text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined !text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined !text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined !text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined !text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</div>
+</div>
+<div class="size-16 bg-center bg-no-repeat bg-cover rounded-full flex-shrink-0" data-alt="Profile picture of Alice Martin" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBlaYH5hs2j_GhbePnew3e5fNAOU8vPcbGF4ASiknSex7bH8tF42FsJhH5ll8q6TRQZ1jo3xPyMY3AsnXneyK78sV5dtfGAciTFDQ-hWhgDQck2W89n-NXP0DxVHWjD_3fT3C1R0sUULt8wc8ndgNEL0lGc71qypUFW6b3a4MdrQ7ksOY9iJR0Dz7VOTevlXZeEfTyRzDusBYgWgk4HUuioWTnBZhNozTe47RJiIP8s57vWOs2znV46LVMAoXZSat5T33NgxMuTjggH");'></div>
+</div>
+<div class="border-t border-border-light dark:border-border-dark pt-3 flex flex-col gap-3">
+<div class="flex items-center gap-2 text-sm text-text-light/90 dark:text-text-dark/90">
+<span class="material-symbols-outlined !text-xl text-text-light/70 dark:text-text-dark/70">payments</span>
+<span>Dès 65€/h</span>
+</div>
+<div class="flex items-center gap-2 text-sm text-accent-availability font-medium">
+<span class="material-symbols-outlined !text-xl">calendar_today</span>
+<span>Disponible aujourd'hui</span>
+</div>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-11 px-4 bg-primary text-white text-base font-bold leading-normal w-full">
+<span class="truncate">Voir le profil</span>
+</button>
+</div>
+<!-- Professional Card 3 -->
+<div class="flex flex-col gap-4 rounded-xl bg-card-light dark:bg-card-dark p-4 border border-border-light dark:border-border-dark">
+<div class="flex items-start justify-between gap-4">
+<div class="flex-1">
+<p class="text-lg font-bold text-text-light dark:text-text-dark">Marc Dubois</p>
+<p class="text-sm text-text-light/80 dark:text-text-dark/80">Serrurerie</p>
+<div class="flex items-center gap-1 mt-1">
+<p class="text-sm font-bold text-accent-rating">4.7</p>
+<div class="flex text-accent-rating">
+<span class="material-symbols-outlined !text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined !text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined !text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined !text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined !text-base" style="font-variation-settings: 'FILL' 1;">star_half</span>
+</div>
+</div>
+</div>
+<div class="size-16 bg-center bg-no-repeat bg-cover rounded-full flex-shrink-0" data-alt="Profile picture of Marc Dubois" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDZ6ikgEpzmC0hU1mjHpCn5sVDTlwKx7fvIUA-hUrF4uM8d7G432240S9xijxlMDJe8fUxCdijvFJ9x2cGup9HuopkrJQin3nuZ9zaRtw8sm8bygD7wNyTmR3-WHMqdAhv7OGvwPdOa_520YPZEvkSJirfCSbo1lVAcutncn-RLmdxNRhSVY3WUTws8dh9Odd3bBFzdOQCvc5K389vbQzgzLoWMU9MVuhqAtmlFjGPYnEtt-BhR_pwAJtFvN2bhNIkgrjDGCMNyOkDp");'></div>
+</div>
+<div class="border-t border-border-light dark:border-border-dark pt-3 flex flex-col gap-3">
+<div class="flex items-center gap-2 text-sm text-text-light/90 dark:text-text-dark/90">
+<span class="material-symbols-outlined !text-xl text-text-light/70 dark:text-text-dark/70">payments</span>
+<span>Sur devis</span>
+</div>
+<div class="flex items-center gap-2 text-sm text-text-light/80 dark:text-text-dark/80 font-medium">
+<span class="material-symbols-outlined !text-xl">calendar_check</span>
+<span>Pas de créneau avant Lundi</span>
+</div>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-11 px-4 bg-primary text-white text-base font-bold leading-normal w-full">
+<span class="truncate">Voir le profil</span>
+</button>
+</div>
+</div>
+</main>
+</div>
+</body></html>

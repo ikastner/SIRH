@@ -1,0 +1,1562 @@
+Je laisse la transcription.
+
+SOUI Dhaker (Acoss)
+0 minutes 5 secondes0:05
+SOUI Dhaker (Acoss) 0 minutes 5 secondes
+C'est comme tu veux, laisse-moi.
+
+DIAKHATE Youssoupha (Acoss)
+0 minutes 5 secondes0:05
+DIAKHATE Youssoupha (Acoss) 0 minutes 5 secondes
+Tu la sais bien ?
+DIAKHATE Youssoupha (Acoss) 0 minutes 7 secondes
+Ok.
+DIAKHATE Youssoupha (Acoss) 0 minutes 12 secondes
+Ça marche, vas-y si vous voulez faire un résumé de ce qu'on a dit jusqu'à présent.
+
+SOUI Dhaker (Acoss)
+0 minutes 12 secondes0:12
+SOUI Dhaker (Acoss) 0 minutes 12 secondes
+Voilà donc on aura.
+SOUI Dhaker (Acoss) 0 minutes 17 secondes
+Oui, c'est en résumé sur les sur l'autre page romain, sur la page des de pilotage, on va mettre les demandes de demandes en cours et demandes traitées et sur les demandes en cours, c'est toutes les statuts qui.
+SOUI Dhaker (Acoss) 0 minutes 32 secondes
+Que voilà que qui sont pas qui sont pas encore pris en charge et les traiter quels que soient les statuts, que ce soit validé ou que ce soit refusé après le point d'entrée de d'un collaborateur X.
+SOUI Dhaker (Acoss) 0 minutes 48 secondes
+Y peu importe le profil, ce sera les applications et les applications. Chacun chaque profil aura sa sa version de dashboard. Ça va être traité dans le back office, c'est à dire youssoupha, il aura une vue.
+SOUI Dhaker (Acoss) 1 minute 4 secondes
+Moi, en tant que simple collaborateur, j'aurai une autre vue.
+
+DIAKHATE Youssoupha (Acoss)
+4 minutes 34 secondes4:34
+DIAKHATE Youssoupha (Acoss) 4 minutes 34 secondes
+Non mais de le transformer en c'est juste les pages que vous transformez en.
+
+SOUI Dhaker (Acoss)
+4 minutes 38 secondes4:38
+SOUI Dhaker (Acoss) 4 minutes 38 secondes
+C'est les oui, c'est les pages, c'est les pages. Après sur les boutons tu as des contrôles et dans les contrôles, là tu là où tu vas, tu vas appeler les tes séquences depuis X ou y tu vois.
+SOUI Dhaker (Acoss) 4 minutes 54 secondes
+Projet.
+SOUI Dhaker (Acoss) 4 minutes 58 secondes
+Donc oui.
+
+DIAKHATE Youssoupha (Acoss)
+5 minutes 2 secondes5:02
+DIAKHATE Youssoupha (Acoss) 5 minutes 2 secondes
+Je sais pas ça si c'est.
+
+SOUI Dhaker (Acoss)
+5 minutes 6 secondes5:06
+SOUI Dhaker (Acoss) 5 minutes 6 secondes
+Si, c'est quoi, c'est faudable.
+
+DIAKHATE Youssoupha (Acoss)
+5 minutes 8 secondes5:08
+DIAKHATE Youssoupha (Acoss) 5 minutes 8 secondes
+Si on gagne quelque chose, là je sais pas si c'est efficient ça.
+
+SOUI Dhaker (Acoss)
+5 minutes 14 secondes5:14
+SOUI Dhaker (Acoss) 5 minutes 14 secondes
+C'est y A quoi dans ta tête ? Y a non mais 111 cerveau on est d'accord mais si tu veux faire la blague mais
+
+DIAKHATE Youssoupha (Acoss)
+5 minutes 18 secondes5:18
+DIAKHATE Youssoupha (Acoss) 5 minutes 18 secondes
+Je sais pas.
+
+ALEXANDRE Romain (Acoss)
+5 minutes 22 secondes5:22
+ALEXANDRE Romain (Acoss) 5 minutes 22 secondes
+Oui.
+
+DIAKHATE Youssoupha (Acoss)
+5 minutes 25 secondes5:25
+DIAKHATE Youssoupha (Acoss) 5 minutes 25 secondes
+J'espère.
+
+SOUI Dhaker (Acoss)
+5 minutes 29 secondes5:29
+SOUI Dhaker (Acoss) 5 minutes 29 secondes
+En fait en fait il y a 3 approches, y a moi j'ai identifié 3 approches approche un c'est dire que attends je vais, je vais quand même partager mon écran.
+
+ALEXANDRE Romain (Acoss)
+5 minutes 42 secondes5:42
+ALEXANDRE Romain (Acoss) 5 minutes 42 secondes
+Allez-y.
+
+SOUI Dhaker (Acoss)
+5 minutes 45 secondes5:45
+SOUI Dhaker (Acoss) 5 minutes 45 secondes
+Les approches en fait que j'ai identifié. Bon là c'est j'ai mis 2 mais y en a 3 qu'on l'a, qu'on l'a expérimenté avec ivane. Mais l'approche c'est on, dit soit on va, on va faire.
+SOUI Dhaker (Acoss) 6 minutes 3 secondes
+Des habits.
+SOUI Dhaker (Acoss) 6 minutes 5 secondes
+Ça s'appelle des API interprojet, c'est à dire on fait un API pour créer pour de faire une demande de demande badge par exemple et l'utiliser et à la fois dans le projet formulaire et dans le projet global.
+SOUI Dhaker (Acoss) 6 minutes 22 secondes
+Ça c'est ça sera juste juste une consommation d'a. PI soit on fait un share component sur voilà sur et on fait les appels dans les pages, soit on fait un iframe moi je suis-je
+SOUI Dhaker (Acoss) 6 minutes 38 secondes
+Pourtant on l'a, on l'a, on l'a, on l'a, on l'a essayé, on l'a testé mais je suis pas. C'est pas question de fans mais je sais que qu'on a toujours des problèmes avec les e-frames. Pourquoi ?
+SOUI Dhaker (Acoss) 6 minutes 51 secondes
+Parce que parce que les iframes on perd le DOM dans le chargement de la page c'est toujours c'est toujours ça dans le cycle de vie d'une page le l'iframe vient toujours après le DOM, même lorsqu'on a lorsqu'on a parlé avec aymen hier.
+
+DIAKHATE Youssoupha (Acoss)
+7 minutes 2 secondes7:02
+DIAKHATE Youssoupha (Acoss) 7 minutes 2 secondes
+Non.
+
+SOUI Dhaker (Acoss)
+7 minutes 10 secondes7:10
+SOUI Dhaker (Acoss) 7 minutes 10 secondes
+Et on la dit et on la dit directement et dit, il nous a dit, non, non, non, s'il te plaît, on fait pas ça, tu vois, c'est pour ça.
+
+DIAKHATE Youssoupha (Acoss)
+7 minutes 15 secondes7:15
+DIAKHATE Youssoupha (Acoss) 7 minutes 15 secondes
+la la la la la la.
+DIAKHATE Youssoupha (Acoss) 7 minutes 18 secondes
+Moi, c'était les années 90, 2000.
+
+SOUI Dhaker (Acoss)
+7 minutes 20 secondes7:20
+SOUI Dhaker (Acoss) 7 minutes 20 secondes
+Oui, avec voilà. Donc c'est pour ça, c'est on la, on la, on la, on la expérimenté. OK, c'est ça fonctionne, mais je pense que une fois on entre dans le vif du sujet et on aura beaucoup de problèmes donc.
+SOUI Dhaker (Acoss) 7 minutes 38 secondes
+Je recommande plutôt ce soit soit l'utilisation de charge compound, soit la PI et on se dit pourquoi ajouter une couche supplémentaire de dev et nous on a, on a la maîtrise de charge compound et on l'a on c'est l'objectif en fait.
+SOUI Dhaker (Acoss) 7 minutes 54 secondes
+Cha.
+SOUI Dhaker (Acoss) 7 minutes 57 secondes
+Parce que. Parce que réellement, réellement, les projets, les projets qu'on va faire le attends le SI rh badge le SI rh heures sup, le SI rh module mobilité durable, ça c'est des
+SOUI Dhaker (Acoss) 8 minutes 13 secondes
+Comment dirais-je ? C'est des récipients pour moi c'est pas c'est pas ça de ce qu'on va qu'on va voir dans le l'u. I principal on va l'avoir dans le portail dans le projet portail ça on raisonne pour projet ça c'est un projet convertigo projet Convertigo.
+SOUI Dhaker (Acoss) 8 minutes 29 secondes
+Projet Convertigo, et ça c'est les applications externes, les applications externes par contre si c'est pas convertigo.
+SOUI Dhaker (Acoss) 8 minutes 38 secondes
+On peut utiliser le iframe si c'est converti Go.
+SOUI Dhaker (Acoss) 8 minutes 42 secondes
+Là où on peut, là où on peut-on peut voir si on utilise les API ou pas.
+
+DIAKHATE Youssoupha (Acoss)
+8 minutes 49 secondes8:49
+DIAKHATE Youssoupha (Acoss) 8 minutes 49 secondes
+Ok.
+
+SOUI Dhaker (Acoss)
+8 minutes 50 secondes8:50
+SOUI Dhaker (Acoss) 8 minutes 50 secondes
+Ce la.
+SOUI Dhaker (Acoss) 8 minutes 51 secondes
+Mais même si par exemple on a le au Bureau qui est sur convertigo, on peut transformer les formulaires formulaires en charles compoint et les réutiliser, c'est juste des référencements de projets.
+SOUI Dhaker (Acoss) 9 minutes 6 secondes
+Mais là on va éviter de faire des reformes sur des projets. Moi j'écris au Bureau mais je vais dire je vais dire par exemple du RP Secursafe par exemple Secursafe ça sera inclus dans le projet machin.
+SOUI Dhaker (Acoss) 9 minutes 24 secondes
+Donc ce qu'on ce qu'on essaye d'éviter c'est de faire des redirections. Tu vois pas de ça dans le lien d'où l'utilisation de la pays donc y aura un couplage. C'est pour ça aussi. J'ai mis les 2Y aura un couplage. Les formulaires c'est des chartes comme pas notre.
+SOUI Dhaker (Acoss) 9 minutes 41 secondes
+Ça c'est parce que ça c'est on va les développer carrément et les autres applications comme du RP, comme AT comme machin, ça c'est des c'est des API qu'on va les consommer.
+SOUI Dhaker (Acoss) 9 minutes 55 secondes
+Comme ça on évite comme ça. Tout est centralisé en fait, et c'est et je pense que c'était l'objectif. Tu vois, tout est centralisé.
+
+DIAKHATE Youssoupha (Acoss)
+10 minutes 4 secondes10:04
+DIAKHATE Youssoupha (Acoss) 10 minutes 4 secondes
+On va le consommer et tout pour le et tout ça.
+
+SOUI Dhaker (Acoss)
+10 minutes 7 secondes10:07
+SOUI Dhaker (Acoss) 10 minutes 7 secondes
+Soit comme ça, soit on va mettre des iframes.
+SOUI Dhaker (Acoss) 10 minutes 14 secondes
+Mais et franchement, moi je le déconseille carrément.
+SOUI Dhaker (Acoss) 10 minutes 20 secondes
+Je le répète, on l'a expérimenté et c'est faisable même même même sur les trucs d'authentification avec les sessions et tout, on l'a expérimenté et c'est faisable mais on le la déconseille.
+
+DIAKHATE Youssoupha (Acoss)
+10 minutes 37 secondes10:37
+DIAKHATE Youssoupha (Acoss) 10 minutes 37 secondes
+Et quand tu transformes.
+DIAKHATE Youssoupha (Acoss) 10 minutes 40 secondes
+Un projet donc imaginons, t'as créé un projet avec un formulaire de badge.
+DIAKHATE Youssoupha (Acoss) 10 minutes 45 secondes
+Toi tu dis, tu transformes après le.
+
+SOUI Dhaker (Acoss)
+10 minutes 48 secondes10:48
+SOUI Dhaker (Acoss) 10 minutes 48 secondes
+Je transforme pas le projet attention, c'est ouais.
+
+DIAKHATE Youssoupha (Acoss)
+10 minutes 50 secondes10:50
+DIAKHATE Youssoupha (Acoss) 10 minutes 50 secondes
+Oui donc justement, tu transformes quoi la page ?
+
+SOUI Dhaker (Acoss)
+10 minutes 54 secondes10:54
+SOUI Dhaker (Acoss) 10 minutes 54 secondes
+En fait, c'est très simple, c'est si tu vas.
+SOUI Dhaker (Acoss) 11 minutes 2 secondes
+Pour être plus concret comme ça tu.
+SOUI Dhaker (Acoss) 11 minutes 22 secondes
+Ici, par exemple, ici.
+SOUI Dhaker (Acoss) 11 minutes 24 secondes
+Ici, on a une page d'accord, par exemple le formulaire.
+
+DIAKHATE Youssoupha (Acoss)
+11 minutes 27 secondes11:27
+DIAKHATE Youssoupha (Acoss) 11 minutes 27 secondes
+Oui.
+
+SOUI Dhaker (Acoss)
+11 minutes 31 secondes11:31
+SOUI Dhaker (Acoss) 11 minutes 31 secondes
+New action allez New action New action ça c'est un formulaire d'accord nous ce que c'est quoi c'est le billet, c'est le responsable machin c'est des chartes d'accord si tu si on si on accède en profondeur tu vas trouver use input machin use input machin.
+
+DIAKHATE Youssoupha (Acoss)
+11 minutes 48 secondes11:48
+DIAKHATE Youssoupha (Acoss) 11 minutes 48 secondes
+Ok, OK.
+
+SOUI Dhaker (Acoss)
+11 minutes 49 secondes11:49
+SOUI Dhaker (Acoss) 11 minutes 49 secondes
+Donc ce travail, ça va être fait.
+SOUI Dhaker (Acoss) 12 minutes
+Ça va être fait dans.
+SOUI Dhaker (Acoss) 12 minutes 3 secondes
+Dans le shirt compound ici tu vois ici par exemple le du RP Header du RP Header il récupère aussi un autre, un autre shirt compound, c'est-à-dire c'est-à-dire on aura, on aura.
+
+DIAKHATE Youssoupha (Acoss)
+12 minutes 5 secondes12:05
+DIAKHATE Youssoupha (Acoss) 12 minutes 5 secondes
+Oui, donc ça je suis d'accord.
+DIAKHATE Youssoupha (Acoss) 12 minutes 15 secondes
+Ok.
+
+SOUI Dhaker (Acoss)
+12 minutes 18 secondes12:18
+SOUI Dhaker (Acoss) 12 minutes 18 secondes
+Du RP Header pardon on aura du RP forme et on va récupérer tous les éléments depuis ça c'est notre Store.
+SOUI Dhaker (Acoss) 12 minutes 31 secondes
+Tu vois ce le compound UI, le compound UI c'est notre Store, c'est là où tu trouves les petits, les petits composants, les inputs, les machins et dans le projet qui va s'appeler qui va s'appeler forme si rh demande de badge.
+
+Oui.
+
+SOUI Dhaker (Acoss)
+12 minutes 48 secondes12:48
+SOUI Dhaker (Acoss) 12 minutes 48 secondes
+Tu auras le formulaire ici, le la le la le pardon composant ici et dans le projet qui va s'appeler par exemple du RP pourquoi je dis du RPSIRH global ?
+
+DIAKHATE Youssoupha (Acoss)
+12 minutes 53 secondes12:53
+DIAKHATE Youssoupha (Acoss) 12 minutes 53 secondes
+Je conclusa.
+
+SOUI Dhaker (Acoss)
+13 minutes 5 secondes13:05
+SOUI Dhaker (Acoss) 13 minutes 5 secondes
+Ça sera juste une page qui la sur la page qui récupère le composant en question c'est pas les composants des input machins mais le composant de formulaire ce qu'on a créé tu vois.
+
+DIAKHATE Youssoupha (Acoss)
+13 minutes 19 secondes13:19
+DIAKHATE Youssoupha (Acoss) 13 minutes 19 secondes
+D'accord, mais les transactions, elles seront où ici ou.
+
+SOUI Dhaker (Acoss)
+13 minutes 23 secondes13:23
+SOUI Dhaker (Acoss) 13 minutes 23 secondes
+Les transactions, les transactions, ça sera dans le parce que, parce que.
+
+DIAKHATE Youssoupha (Acoss)
+13 minutes 28 secondes13:28
+DIAKHATE Youssoupha (Acoss) 13 minutes 28 secondes
+Du projet global, du projet chapeau ou des sous-projets.
+
+SOUI Dhaker (Acoss)
+13 minutes 31 secondes13:31
+SOUI Dhaker (Acoss) 13 minutes 31 secondes
+Nous on s'est dit, on s'est dit pour ne pas avoir des trucs kilométriques, on va, on va créer le chaque projet, c'est à dire voilà, voilà, voilà donc on peut et on a donc on peut faire.
+
+DIAKHATE Youssoupha (Acoss)
+13 minutes 40 secondes13:40
+DIAKHATE Youssoupha (Acoss) 13 minutes 40 secondes
+Complètement avec le les transactions et les séquences et les pages.
+
+SOUI Dhaker (Acoss)
+13 minutes 48 secondes13:48
+SOUI Dhaker (Acoss) 13 minutes 48 secondes
+Le projet backend pour ce projet, on a une autre option sur ça qu'on a qu'on a vu ensemble moi et Evan, c'est créer un projet fullstack, c'est-à-dire dans le projet tu vas trouver et à la fois le front.
+SOUI Dhaker (Acoss) 14 minutes 4 secondes
+Ah et à la fois les séquences et les trucs comme ça on a, on a voilà et sur le et sur et sur le et sur le projet global ça sera juste un référencement.
+
+DIAKHATE Youssoupha (Acoss)
+14 minutes 8 secondes14:08
+DIAKHATE Youssoupha (Acoss) 14 minutes 8 secondes
+No.
+DIAKHATE Youssoupha (Acoss) 14 minutes 10 secondes
+Ok, on diminue par 2.
+
+SOUI Dhaker (Acoss)
+14 minutes 18 secondes14:18
+SOUI Dhaker (Acoss) 14 minutes 18 secondes
+Un référencement de du projet quoi et on récupère directement le composant avec ses propres trucs et lorsqu'on veut déployer c'est ça la, c'est ça l'avantage en fait.
+SOUI Dhaker (Acoss) 14 minutes 34 secondes
+Peut-être de faire un truc modulaire lorsqu'on veut déployer, on va déployer juste le formulaire, le projet formulaire, c'est-à-dire le projet SIRH demande de badge et comme ça TAC, ça sera visible. Voilà.
+
+DIAKHATE Youssoupha (Acoss)
+14 minutes 39 secondes14:39
+DIAKHATE Youssoupha (Acoss) 14 minutes 39 secondes
+Le projet de le de le de el de el de.
+DIAKHATE Youssoupha (Acoss) 14 minutes 50 secondes
+Et si quelqu'un doit intervenir sur un projet, à part tant qu'il le veut pas volontairement les autres.
+
+SOUI Dhaker (Acoss)
+14 minutes 54 secondes14:54
+SOUI Dhaker (Acoss) 14 minutes 54 secondes
+Se.
+SOUI Dhaker (Acoss) 14 minutes 57 secondes
+Oui c'est si voilà, si y a des évolutions sur un formulaire, il va accéder directement au formulaire en question pour faire pour faire ces trucs.
+
+DIAKHATE Youssoupha (Acoss)
+15 minutes 11 secondes15:11
+DIAKHATE Youssoupha (Acoss) 15 minutes 11 secondes
+Ouais, mais ça veut dire que.
+
+SOUI Dhaker (Acoss)
+15 minutes 13 secondes15:13
+SOUI Dhaker (Acoss) 15 minutes 13 secondes
+Ça veut dire oui, ça veut dire quoi ?
+
+DIAKHATE Youssoupha (Acoss)
+15 minutes 14 secondes15:14
+DIAKHATE Youssoupha (Acoss) 15 minutes 14 secondes
+Si on donne un accès, imaginons qu'on ait un prestataire qui nous rejoint, on voit juste qu'il intervienne sur un formulaire de l'application qui est en prod.
+
+SOUI Dhaker (Acoss)
+15 minutes 23 secondes15:23
+SOUI Dhaker (Acoss) 15 minutes 23 secondes
+Sur le guide, il récupère que le projet demande de badge par exemple.
+
+DIAKHATE Youssoupha (Acoss)
+15 minutes 29 secondes15:29
+DIAKHATE Youssoupha (Acoss) 15 minutes 29 secondes
+Mais c'est qu'en termes de sécurité, on lui ouvre accès qu'à ça, on peut le ouvrir accès qu'à ça au niveau du guide.
+
+SOUI Dhaker (Acoss)
+15 minutes 37 secondes15:37
+SOUI Dhaker (Acoss) 15 minutes 37 secondes
+Oui.
+SOUI Dhaker (Acoss) 15 minutes 38 secondes
+C'est un projet.
+
+DIAKHATE Youssoupha (Acoss)
+15 minutes 39 secondes15:39
+DIAKHATE Youssoupha (Acoss) 15 minutes 39 secondes
+Et le fait qu'il y ait un projet global parce que juste le sous-projet avec le projet global et si on lui donne les droits sur le projet global, il y a les références.
+
+SOUI Dhaker (Acoss)
+15 minutes 47 secondes15:47
+SOUI Dhaker (Acoss) 15 minutes 47 secondes
+Salut de.
+SOUI Dhaker (Acoss) 15 minutes 49 secondes
+Oui mais ça lui donne pas le l'accès sur le projet même si le y a le la référence la référence c'est comme c'est comme voilà c'est juste une référence sur un projet mais ça donne pas l'accès sur le projet en question.
+
+DIAKHATE Youssoupha (Acoss)
+15 minutes 57 secondes15:57
+DIAKHATE Youssoupha (Acoss) 15 minutes 57 secondes
+Oui.
+
+SOUI Dhaker (Acoss)
+16 minutes 5 secondes16:05
+SOUI Dhaker (Acoss) 16 minutes 5 secondes
+Tu vois ce que je veux dire ?
+
+DIAKHATE Youssoupha (Acoss)
+16 minutes 6 secondes16:06
+DIAKHATE Youssoupha (Acoss) 16 minutes 6 secondes
+Oui, mais ce que je veux dire c'est dans le guide, on sera obligé de lui donner un accès à l'ensemble.
+
+SOUI Dhaker (Acoss)
+16 minutes 10 secondes16:10
+SOUI Dhaker (Acoss) 16 minutes 10 secondes
+et no.
+
+DIAKHATE Youssoupha (Acoss)
+16 minutes 12 secondes16:12
+DIAKHATE Youssoupha (Acoss) 16 minutes 12 secondes
+Pour qu'il le fasse fonctionner, non ?
+DIAKHATE Youssoupha (Acoss) 16 minutes 15 secondes
+Ok.
+
+SOUI Dhaker (Acoss)
+16 minutes 17 secondes16:17
+SOUI Dhaker (Acoss) 16 minutes 17 secondes
+C'est juste le projet en question.
+SOUI Dhaker (Acoss) 16 minutes 27 secondes
+Tuc, Tuc, Tuc.
+
+DIAKHATE Youssoupha (Acoss)
+16 minutes 30 secondes16:30
+DIAKHATE Youssoupha (Acoss) 16 minutes 30 secondes
+C'est quoi ce chemin-là ?
+DIAKHATE Youssoupha (Acoss) 16 minutes 32 secondes
+Il est beau.
+
+SOUI Dhaker (Acoss)
+16 minutes 32 secondes16:32
+SOUI Dhaker (Acoss) 16 minutes 32 secondes
+Ce schéma c'est le séquencement, c'est comment ? C'est comment on accès puis on sélectionne le module, ce qu'il a montré, ce qu'il a montré romain en fait, c'est demande de badge, puis il fait la demande.
+
+DIAKHATE Youssoupha (Acoss)
+16 minutes 43 secondes16:43
+DIAKHATE Youssoupha (Acoss) 16 minutes 43 secondes
+Prova.
+
+SOUI Dhaker (Acoss)
+16 minutes 49 secondes16:49
+SOUI Dhaker (Acoss) 16 minutes 49 secondes
+Et tout ça, il reste dans le l'écosystème du et sort pas de ces de srh.
+SOUI Dhaker (Acoss) 16 minutes 56 secondes
+Et s'il veut par exemple accéder à une application externe, ici j'ai exprès schématisé avec powerapps pour dire que on peut inclure des applications externes qui sont pas convertibles mais ça par contre on est entre guillemets obligé.
+SOUI Dhaker (Acoss) 17 minutes 14 secondes
+De faire avec de les sauf si on souhaite développer des API qui récupèrent de plus parsac mais ça c'est pas c'est pas l'objectif quoi.
+SOUI Dhaker (Acoss) 17 minutes 32 secondes
+Quoi d'autre comme information ?
+SOUI Dhaker (Acoss) 17 minutes 39 secondes
+Je pense que ça commence à avoir la tête.
+SOUI Dhaker (Acoss) 17 minutes 43 secondes
+Du comment on accède sur le point d'entrée ?
+
+DIAKHATE Youssoupha (Acoss)
+17 minutes 50 secondes17:50
+DIAKHATE Youssoupha (Acoss) 17 minutes 50 secondes
+Donc là, faut qu'on voit comment ça se matérialise au niveau sgma.
+DIAKHATE Youssoupha (Acoss) 17 minutes 55 secondes
+Du coup romain.
+DIAKHATE Youssoupha (Acoss) 17 minutes 59 secondes
+Ok, moi ça me va le découpage en.
+DIAKHATE Youssoupha (Acoss) 18 minutes 4 secondes
+Sous projet, donc, avec un projet chapeau.
+
+SOUI Dhaker (Acoss)
+18 minutes 7 secondes18:07
+SOUI Dhaker (Acoss) 18 minutes 7 secondes
+Oui.
+
+DIAKHATE Youssoupha (Acoss)
+18 minutes 7 secondes18:07
+DIAKHATE Youssoupha (Acoss) 18 minutes 7 secondes
+Qui va, qui va appeler les autres projets sous forme de composants partagés, OK ?
+
+SOUI Dhaker (Acoss)
+18 minutes 16 secondes18:16
+SOUI Dhaker (Acoss) 18 minutes 16 secondes
+Ça c'est au niveau des formulaires, je le répète après les autres projets faut voir si on va faire des ou si on va faire des API.
+
+DIAKHATE Youssoupha (Acoss)
+18 minutes 31 secondes18:31
+DIAKHATE Youssoupha (Acoss) 18 minutes 31 secondes
+Oui, mais si tu vois, si tu veux par exemple sur les autres projets.
+
+SOUI Dhaker (Acoss)
+18 minutes 32 secondes18:32
+SOUI Dhaker (Acoss) 18 minutes 32 secondes
+C'est à dire c'est à dire concrètement concrètement moi j'accède à 6 rh admettons qu'on est à 6 rh je trouve l'application DURP d'accord je suis gestionnaire machin.
+SOUI Dhaker (Acoss) 18 minutes 49 secondes
+Je lorsque je clique sur nouvelle action, je dois atterrir à ça.
+
+DIAKHATE Youssoupha (Acoss)
+18 minutes 56 secondes18:56
+DIAKHATE Youssoupha (Acoss) 18 minutes 56 secondes
+Ouais.
+
+SOUI Dhaker (Acoss)
+18 minutes 56 secondes18:56
+SOUI Dhaker (Acoss) 18 minutes 56 secondes
+Est-ce que.
+SOUI Dhaker (Acoss) 19 minutes
+Y a quelques inconvénients sur ça, sur le fait d'avoir une iframe, donc on aura 7 vues d'accord, donc peut-être c'est pas le même le même style peut-être machin et si on va développer des API ?
+SOUI Dhaker (Acoss) 19 minutes 17 secondes
+C'est-à-dire, il faut.
+SOUI Dhaker (Acoss) 19 minutes 19 secondes
+Prendre en charge presque tout le projet du tu vois ce que je veux dire, c'est ça l'avantage de.
+
+DIAKHATE Youssoupha (Acoss)
+19 minutes 23 secondes19:23
+DIAKHATE Youssoupha (Acoss) 19 minutes 23 secondes
+Non ouais je sais pas si y a une nouvelle à rajouter à le mettre en les applications externes.
+DIAKHATE Youssoupha (Acoss) 19 minutes 30 secondes
+Parce que du coup, on casse, on casse le on casse la charte.
+
+SOUI Dhaker (Acoss)
+19 minutes 31 secondes19:31
+SOUI Dhaker (Acoss) 19 minutes 31 secondes
+C'est-à-dire que.
+SOUI Dhaker (Acoss) 19 minutes 33 secondes
+On casse le design mais l'avantage c'est que on sort pas de l'écosystème, ça sera un écosystème, on peut, c'est, bien sûr, c'est On peut par exemple sur les applications, on clique sur l'application et bim on est, on atterrit sur.
+SOUI Dhaker (Acoss) 19 minutes 49 secondes
+Sur mais je pense ouais mais je pense que.
+
+DIAKHATE Youssoupha (Acoss)
+19 minutes 50 secondes19:50
+DIAKHATE Youssoupha (Acoss) 19 minutes 50 secondes
+Dans un nouvel onglet.
+
+SOUI Dhaker (Acoss)
+19 minutes 55 secondes19:55
+SOUI Dhaker (Acoss) 19 minutes 55 secondes
+Les l'attirance de l'offre, c'est d'être en voilà de regrouper.
+
+Eurogroupe.
+DIAKHATE Youssoupha (Acoss) 20 minutes 1 seconde
+Oui, mais c'est le point d'entrée qui était important, je retrouve tous mes outils au même endroit.
+DIAKHATE Youssoupha (Acoss) 20 minutes 7 secondes
+Je c'est l'aéroport, j'arrive à l'aéroport mais après j'ai je peux pas aller n'importe où, c'est un hub.
+DIAKHATE Youssoupha (Acoss) 20 minutes 14 secondes
+C'est pas parce que j'arrive à l'aéroport que je dois aller systématiquement à Dakar.
+
+SOUI Dhaker (Acoss)
+20 minutes 19 secondes20:19
+SOUI Dhaker (Acoss) 20 minutes 19 secondes
+Oui, oui, oui, oui, j'ai compris, oui.
+SOUI Dhaker (Acoss) 20 minutes 23 secondes
+Après bien sûr c'est ça, va nous coûter de l'argent de refaire le de réinventer les roues sur du RPAT et machin. Donc oui ça peut-être un ça peut-être un juste un lien externe vers l'application.
+SOUI Dhaker (Acoss) 20 minutes 38 secondes
+Sinon c'est sinon c'est coûteux de redévelopper toutes les applications qu'on a commencé à faire ou voilà.
+SOUI Dhaker (Acoss) 20 minutes 51 secondes
+Par contre par contre, on peut-on peut dire que les nouvelles applications on peut la développer directement avec la nouvelle méthode des formulaires, C'est-à-dire par exemple par exemple le l'application de gestion de conflit.
+SOUI Dhaker (Acoss) 21 minutes 8 secondes
+L'application de gestion de conflit, on peut la faire directement comme on va faire dans les formulaires, comme ça on sort pas du contexte.
+SOUI Dhaker (Acoss) 21 minutes 18 secondes
+Lorsque je dis contexte et que c'est technique, c'est pas fonctionnel, c'est-à-dire on reste dans SI rh. Si vous êtes d'accord sur ça, les applications qu'on a développées, OK, c'est un peu tard, c'est mort. On peut faire juste des.
+
+DIAKHATE Youssoupha (Acoss)
+21 minutes 22 secondes21:22
+DIAKHATE Youssoupha (Acoss) 21 minutes 22 secondes
+Oh.
+
+SOUI Dhaker (Acoss)
+21 minutes 33 secondes21:33
+SOUI Dhaker (Acoss) 21 minutes 33 secondes
+De redirection mais les nouvelles applications on peut-on peut dire que ça fait partie du bouquet SIAH.
+SOUI Dhaker (Acoss) 21 minutes 43 secondes
+Et on fait le même le les mêmes concepts, c'est-à-dire on fait des on fait si par exemple on a 3 pages, page dashboard, page page formulaire et page action, les pages ce seront des chart component.
+
+DIAKHATE Youssoupha (Acoss)
+21 minutes 57 secondes21:57
+DIAKHATE Youssoupha (Acoss) 21 minutes 57 secondes
+Ajá.
+
+SOUI Dhaker (Acoss)
+21 minutes 58 secondes21:58
+SOUI Dhaker (Acoss) 21 minutes 58 secondes
+Qu'on les appelle dans le projet global, comme ça, voilà, comme ça on aura.
+SOUI Dhaker (Acoss) 22 minutes 5 secondes
+On aura le un truc centralisé.
+SOUI Dhaker (Acoss) 22 minutes 12 secondes
+Je peux, je peux le la.
+SOUI Dhaker (Acoss) 22 minutes 17 secondes
+Je peux le conceptualiser ça si vous voulez sur les nouvelles applications convertibles.
+
+DIAKHATE Youssoupha (Acoss)
+22 minutes 26 secondes22:26
+DIAKHATE Youssoupha (Acoss) 22 minutes 26 secondes
+Mais il faudrait que au niveau des maquettes, là qu'on voit ce cheminement.
+DIAKHATE Youssoupha (Acoss) 22 minutes 32 secondes
+Tu vois les appels vers les autres applications parce que si bah même pour nous c'est un peu difficile à comprendre mais après pour les utilisateurs aussi, en tout cas pour la et moi.
+DIAKHATE Youssoupha (Acoss) 22 minutes 44 secondes
+Elle voit où on va aller. Comment ça va se présenter demain. Tout ce bouquin de service, faut bien qu'il comprenne ce qu'on ce qu'on veut projeter.
+DIAKHATE Youssoupha (Acoss) 22 minutes 55 secondes
+C'est peut-être clair pour toi, mais.
+DIAKHATE Youssoupha (Acoss) 23 minutes 1 seconde
+Toi cette page-là, elle va être en typiquement demain.
+
+SOUI Dhaker (Acoss)
+23 minutes 4 secondes23:04
+SOUI Dhaker (Acoss) 23 minutes 4 secondes
+Oui.
+SOUI Dhaker (Acoss) 23 minutes 9 secondes
+On non, on est frais, mais si on veut, on veut l'inclure dans le sg rh.
+
+DIAKHATE Youssoupha (Acoss)
+23 minutes 15 secondes23:15
+DIAKHATE Youssoupha (Acoss) 23 minutes 15 secondes
+Non mais sinon c'est le lien externe, on le on le voit ailleurs.
+
+SOUI Dhaker (Acoss)
+23 minutes 15 secondes23:15
+SOUI Dhaker (Acoss) 23 minutes 15 secondes
+C'est à dire ?
+SOUI Dhaker (Acoss) 23 minutes 18 secondes
+Sinon le lien, sinon sinon le lien.
+SOUI Dhaker (Acoss) 23 minutes 26 secondes
+Sinon le lien externe et voilà.
+
+DIAKHATE Youssoupha (Acoss)
+23 minutes 31 secondes23:31
+DIAKHATE Youssoupha (Acoss) 23 minutes 31 secondes
+Moi après c'est des je te le je bouge pas.
+
+SOUI Dhaker (Acoss)
+23 minutes 31 secondes23:31
+SOUI Dhaker (Acoss) 23 minutes 31 secondes
+Ben.
+SOUI Dhaker (Acoss) 23 minutes 36 secondes
+Merci.
+
+DIAKHATE Youssoupha (Acoss)
+23 minutes 37 secondes23:37
+DIAKHATE Youssoupha (Acoss) 23 minutes 37 secondes
+Partager.
+DIAKHATE Youssoupha (Acoss) 23 minutes 39 secondes
+Ouais bah je partage cet écran. OK, vous voyez quand j'arrive en tant que manager, je les ai aussi en.
+DIAKHATE Youssoupha (Acoss) 23 minutes 50 secondes
+Par Mail les notifications. Mais l'idée c'est de voir. Moi je les ai validés ce matin mais l'idée et je vais voir ici toutes les demandes d'absence, toutes les demandes de télétravail de tout toute l'équipe, donc de toute l'équipe. Donc si j'avais ce nombre de trucs-là dans mon atacos unifié.
+DIAKHATE Youssoupha (Acoss) 24 minutes 7 secondes
+Je viendrai pas systématiquement ici.
+DIAKHATE Youssoupha (Acoss) 24 minutes 10 secondes
+Pour dire est-ce que telle personne a machin a des est-ce que j'ai des demandes à valider ou pas ? Est-ce que j'ai des demandes d'absence à valider ou pas ? Si j'ai je l'ai depuis le espace et si rh sinon et donc je bascule en cliquant je bascule sur cette application et si rh tu vois c'est ça la l'appli pour les utilisateurs.
+DIAKHATE Youssoupha (Acoss) 24 minutes 28 secondes
+Et ils ont commencé à regrouper eux aussi le service parce que la badgeuse, c'est une autre application qui est là et déclaration de temps de travail et j'ai 2 profils, soit le profil agent, soit le profil manager et quand je suis manager, j'ai mon équipe et je valide leur temps de travail et les anomalies, et cetera, et cetera.
+DIAKHATE Youssoupha (Acoss) 24 minutes 46 secondes
+Déclaration journalière.
+DIAKHATE Youssoupha (Acoss) 24 minutes 50 secondes
+Donc je fais ça. J'ai dit par exemple depuis les 3 derniers mois, est-ce qu'il y a des demandes de badge de gens qui ont oublié de badge et et cetera, et cetera, c'est pas la déclaration tu vois ? Je me trompe à chaque fois de déclaration de présence. Non, ça c'est mon.
+DIAKHATE Youssoupha (Acoss) 25 minutes 6 secondes
+Profil agent manager.
+DIAKHATE Youssoupha (Acoss) 25 minutes 10 secondes
+C'est le service de déclaration journalière à valider. Voilà donc ça c'est le badge de l'équipe qu'ils ont oublié de badger, ils ont fait une régule dans l'outil.
+DIAKHATE Youssoupha (Acoss) 25 minutes 20 secondes
+Donc à part me dire si c'est urgent parce que quand le badge n'est pas à jour il y a un décalage au niveau de leur compteur de temps donc ceux qui veulent savoir s'ils ont juste fait le 07h40 qu'ils doivent faire pour le 07h35 et tout ça à part du moment où ils ont une anomalie de badge.
+DIAKHATE Youssoupha (Acoss) 25 minutes 37 secondes
+Tant que moi je batch pas le compteur-temps est en anomalie donc ils peuvent plus savoir s'ils ont de la marge, et cetera, et cetera. Donc moi c'est quand c'est comme ça. Ben ils m'interpellent par teams et je viens ici, je me casse pas la tête.
+DIAKHATE Youssoupha (Acoss) 25 minutes 54 secondes
+J'ai dit Ben je vais prendre les 3 derniers mois, hop je fais ça et j'ai dit Ben voilà parce que tu peux pas au-delà de 3 mois j'ai dit je fais ça et je vois toutes les demandes qui ont été faites et je prends celles qui sont pas validées et hop je sélectionne tout et je valide.
+DIAKHATE Youssoupha (Acoss) 26 minutes 9 secondes
+Non maintenant si je vois qu'il y a un agent qui tout le temps ne suit pas de ses badges, et cetera, et cetera, ça c'est mon rôle de manager de le choper et de lui parler. Mais cette application-là de badgeage plus cette application que j'ai montré tout à l'heure là de.
+DIAKHATE Youssoupha (Acoss) 26 minutes 25 secondes
+Alors je te place la barre teams et où tu vois la elle est là.
+DIAKHATE Youssoupha (Acoss) 26 minutes 32 secondes
+C'est GTA, le module des absences, il est là pour demander des congés et des jours de télétravail, et cetera, donc il y a un début.
+DIAKHATE Youssoupha (Acoss) 26 minutes 40 secondes
+Centralisation des éléments, ça c'est les outils de formation en ligne, et cetera. Mais tous ces outils-là, ils doivent venir demain dans le l'espace unifié. Il est pas question que dans l'espace unifié, je veux poser des badges, faire des absences. Je dois avoir l'équivalent de ça.
+DIAKHATE Youssoupha (Acoss) 26 minutes 59 secondes
+C'est ce que j'ai voulu faire la ici dans à l'époque 2018. Tu vois, le badgeuse, il est là, donc je l'avais éclaté moi.
+
+SOUI Dhaker (Acoss)
+27 minutes 8 secondes27:08
+SOUI Dhaker (Acoss) 27 minutes 8 secondes
+Et c'est de c'est de c'est de c'est de liens externes ça
+
+C'est des liens externes. Donc depuis canopé je le rajoute et je me dirige directement vers le truc qui va bien. Donc quand ils ont vu ça, ils ont essayé de rassembler ça. C'est ce qu'ils ont fait dans le portail ici. Mais celui-là, il faudra qu'on puisse nous appeler chacun de ces services.
+
+SOUI Dhaker (Acoss)
+27 minutes 12 secondes27:12
+SOUI Dhaker (Acoss) 27 minutes 12 secondes
+Oui.
+SOUI Dhaker (Acoss) 27 minutes 14 secondes
+Oui.
+
+DIAKHATE Youssoupha (Acoss)
+27 minutes 29 secondes27:29
+DIAKHATE Youssoupha (Acoss) 27 minutes 29 secondes
+Depuis notre espace unifié, mais appelez le service.
+
+SOUI Dhaker (Acoss)
+27 minutes 32 secondes27:32
+SOUI Dhaker (Acoss) 27 minutes 32 secondes
+En fait en fait le challenge et l'attirance du SRH c'est pas c'est pas c'est pas d'avoir un système de favori ce que ce que ce qu'on a fait sur canopé c'est équivalent à favori.
+
+DIAKHATE Youssoupha (Acoss)
+27 minutes 42 secondes27:42
+DIAKHATE Youssoupha (Acoss) 27 minutes 42 secondes
+Merci.
+DIAKHATE Youssoupha (Acoss) 27 minutes 44 secondes
+C'est pas, c'est pas ce qu'on veut faire, pas ce qu'on veut faire.
+
+SOUI Dhaker (Acoss)
+27 minutes 46 secondes27:46
+SOUI Dhaker (Acoss) 27 minutes 46 secondes
+Oui donc voilà donc la ouais.
+
+DIAKHATE Youssoupha (Acoss)
+27 minutes 49 secondes27:49
+DIAKHATE Youssoupha (Acoss) 27 minutes 49 secondes
+Oui mais est-ce que je j'envoie vers ce portail-là ?
+DIAKHATE Youssoupha (Acoss) 27 minutes 53 secondes
+Pour tous ces services-là ou est-ce que on dit à l'utilisateur parce que quand tu arrives j'étais à tu sais pas ce que c'est bon là ils ont rajouté badges voilà la savoir que l'outil de gestion des entretiens et tout ça.
+DIAKHATE Youssoupha (Acoss) 28 minutes 6 secondes
+Les entretiens individuels de collaborateurs, c'est cytalan que les demandes de formation c'est ici que si je veux m'absenter ou poser un jour de télétravail, c'est la et c'est de c'est de est-ce qu'on envoie vers la racine, là vers ce portail, ou est-ce que les services dans l'espace unifié vont être détaillés ? Et quand je vais cliquer, je vais arriver directement sur la ligne qui va bien.
+DIAKHATE Youssoupha (Acoss) 28 minutes 26 secondes
+Sur l'offre de service qui va bien.
+
+SOUI Dhaker (Acoss)
+28 minutes 28 secondes28:28
+SOUI Dhaker (Acoss) 28 minutes 28 secondes
+On peut faire en sorte que y aura des voilà des petites descriptions et on peut-on peut avoir aussi le CE qui ce qu'il a, ce qu'il a ajouté Romain, le truc de chat de Bot de on se base, on se modernise un peu, c'est à dire ?
+
+DIAKHATE Youssoupha (Acoss)
+28 minutes 32 secondes28:32
+DIAKHATE Youssoupha (Acoss) 28 minutes 32 secondes
+Ah le.
+DIAKHATE Youssoupha (Acoss) 28 minutes 43 secondes
+Alors sur le sur le chatbot faudra qu'on le voit les travaux, le pas là qui avait été fait pour le chatbot RH comme ça on l'inclut s'il le faut. Mais moi l'idée c'est que depuis mon espace.
+DIAKHATE Youssoupha (Acoss) 28 minutes 55 secondes
+C'est ce que j'avais dit dans les entretiens, que je vienne pas systématiquement ouvrir ici pour voir si j'ai quelque chose à valider ou pas, que via une API ou web service de cette application-là agglomerage que j'arrive à voir dans l'espace unifié, que j'ai 5 demandes d'absence à approuver.
+DIAKHATE Youssoupha (Acoss) 29 minutes 11 secondes
+50 demandes de télétravail approuvées comme ça, si je l'ai depuis mon espace unifié, Ben je clique et j'arrive directement là et je sais que je dois valider.
+
+SOUI Dhaker (Acoss)
+29 minutes 21 secondes29:21
+SOUI Dhaker (Acoss) 29 minutes 21 secondes
+C'est ce qu'il a fait romain sur le lorsqu'on clique sur ouais le backlog, c'est à dire le backlog de le backlog, quelle que soit l'application.
+
+DIAKHATE Youssoupha (Acoss)
+29 minutes 30 secondes29:30
+DIAKHATE Youssoupha (Acoss) 29 minutes 30 secondes
+Le backlog.
+DIAKHATE Youssoupha (Acoss) 29 minutes 34 secondes
+Si l'application l'expose.
+DIAKHATE Youssoupha (Acoss) 29 minutes 36 secondes
+Il y a déjà pays, on consomme s'il y a pas, Ben on met, on met le lien de renvoi direct vers l'application.
+
+SOUI Dhaker (Acoss)
+29 minutes 38 secondes29:38
+SOUI Dhaker (Acoss) 29 minutes 38 secondes
+Oui.
+
+DIAKHATE Youssoupha (Acoss)
+29 minutes 44 secondes29:44
+DIAKHATE Youssoupha (Acoss) 29 minutes 44 secondes
+Parce qu'après ce que vous savez pas c'est que dans les formulaires il y a aussi. Alors tu vois, je sais même moi j'ai du mal, c'est ici.
+DIAKHATE Youssoupha (Acoss) 29 minutes 54 secondes
+Il y a un truc qui s'appelle formulaire.
+DIAKHATE Youssoupha (Acoss) 29 minutes 59 secondes
+Fiche pas Jean peut-être non.
+DIAKHATE Youssoupha (Acoss) 30 minutes 2 secondes
+Y a un truc qui s'appelle formulaire.
+DIAKHATE Youssoupha (Acoss) 30 minutes 6 secondes
+Je sais pas où c'est.
+
+SOUI Dhaker (Acoss)
+30 minutes 9 secondes30:09
+SOUI Dhaker (Acoss) 30 minutes 9 secondes
+Module, peut-être module.
+
+DIAKHATE Youssoupha (Acoss)
+30 minutes 13 secondes30:13
+DIAKHATE Youssoupha (Acoss) 30 minutes 13 secondes
+Non, le module c'est absence ou document électronique, c'est peut-être dans le dehors.
+DIAKHATE Youssoupha (Acoss) 30 minutes 18 secondes
+Voilà ici.
+DIAKHATE Youssoupha (Acoss) 30 minutes 20 secondes
+Ils ont fait un truc qui s'appelle contacter le RH.
+DIAKHATE Youssoupha (Acoss) 30 minutes 24 secondes
+Et voilà tous les tous les formulaires.
+DIAKHATE Youssoupha (Acoss) 30 minutes 29 secondes
+Par demain, tout ça, c'était dans la le tout ça, y était avant, avant qu'il le mette au niveau national, là intégré au.
+DIAKHATE Youssoupha (Acoss) 30 minutes 43 secondes
+Voilà donc, est-ce que.
+DIAKHATE Youssoupha (Acoss) 30 minutes 48 secondes
+On renvoie vers cette page où est-ce qu'on récupère l'URL vers ce service-là ? Je veux faire une déclaration de l'enfant en charge.
+DIAKHATE Youssoupha (Acoss) 30 minutes 57 secondes
+Qu'on nous donne l'URL pour accéder directement à ça.
+
+SOUI Dhaker (Acoss)
+31 minutes 1 seconde31:01
+SOUI Dhaker (Acoss) 31 minutes 1 seconde
+Mais ça non. Pourquoi ? Si c'est un si c'est un formulaire et on a déjà les composants et ça reste juste un regroupement de la composante et on le on l'implémente.
+
+DIAKHATE Youssoupha (Acoss)
+31 minutes 11 secondes31:11
+DIAKHATE Youssoupha (Acoss) 31 minutes 11 secondes
+Oui, mais ça, c'est une application externe.
+DIAKHATE Youssoupha (Acoss) 31 minutes 15 secondes
+On n'a pas la main sur ça, c'est externe, c'est.
+
+SOUI Dhaker (Acoss)
+31 minutes 16 secondes31:16
+SOUI Dhaker (Acoss) 31 minutes 16 secondes
+Ah, externe, carrément externe de.
+
+DIAKHATE Youssoupha (Acoss)
+31 minutes 23 secondes31:23
+DIAKHATE Youssoupha (Acoss) 31 minutes 23 secondes
+Tu vois donc t'as pas mal de formulaires qui sont qui ont basculé, qui ont basculé ici.
+
+SOUI Dhaker (Acoss)
+31 minutes 29 secondes31:29
+SOUI Dhaker (Acoss) 31 minutes 29 secondes
+Oui mais on est d'accord que s'y rh les formulaires surtout je parle des formulaires, ça va, ça va être stocké dans nos bases de données, c'est pas, c'est pas la base de.
+
+DIAKHATE Youssoupha (Acoss)
+31 minutes 43 secondes31:43
+DIAKHATE Youssoupha (Acoss) 31 minutes 43 secondes
+Oui mais les services donc du coup les services qui sont ici on le refait pas ?
+DIAKHATE Youssoupha (Acoss) 31 minutes 48 secondes
+Là aujourd'hui on va pas créer un formulaire convertigo de création de modification de Lib, il existe déjà ici, on le laisse ici dans cette application nationale, mais la question c'est est-ce que on liste, on fait une capture de tous ces services-là ?
+DIAKHATE Youssoupha (Acoss) 32 minutes 3 secondes
+Dans l'espace unifié et en cliquant dessus l'utilisateur va arriver et le problème c'est que est-ce qu'il est-ce qu'on pourra avoir les informations là dans l'u. RL si je prends ça, est-ce que systématiquement je vais arriver sur le par exemple ça ma ma complémentaire de santé ?
+DIAKHATE Youssoupha (Acoss) 32 minutes 20 secondes
+Toi, je pense que c'est les URL génériques là si je fais ça.
+DIAKHATE Youssoupha (Acoss) 32 minutes 24 secondes
+Ok.
+DIAKHATE Youssoupha (Acoss) 32 minutes 26 secondes
+De le bien ici, ma déclaration personnelle, imaginons je prenne ça quand je colle l'autre lien que j'ai copié.
+DIAKHATE Youssoupha (Acoss) 32 minutes 36 secondes
+Bon.
+DIAKHATE Youssoupha (Acoss) 32 minutes 38 secondes
+Donc ça doit être fait par le JS ou je sais pas quoi, le l'URL n'a pas bougé.
+DIAKHATE Youssoupha (Acoss) 32 minutes 43 secondes
+Donc ça veut dire que potentiellement ce qu'on pourrait faire c'est lister ces services-là et je sais pas si c'est pertinent ou pas de l'utilisateur qui cherche tout ça.
+DIAKHATE Youssoupha (Acoss) 32 minutes 55 secondes
+En cliquant, ça le renverra ici par défaut.
+DIAKHATE Youssoupha (Acoss) 33 minutes 4 secondes
+Parce qu'il faut qu'on puisse dire, ou alors on dit tout ce qui est autre que ce qu'on présente nous dans notre portail, Ben on fait le lien vers cette page-là.
+
+SOUI Dhaker (Acoss)
+33 minutes 4 secondes33:04
+SOUI Dhaker (Acoss) 33 minutes 4 secondes
+Parce que parce que ouais.
+
+DIAKHATE Youssoupha (Acoss)
+33 minutes 14 secondes33:14
+DIAKHATE Youssoupha (Acoss) 33 minutes 14 secondes
+dan sì.
+DIAKHATE Youssoupha (Acoss) 33 minutes 16 secondes
+On fait le lien vers ça comme ça l'utilisateur arrive sur sa page de demande de création de d'absence. Ah non, même pas, même pas, même pas. Parce que en cours là c'est les absences et l'autre c'est les autres formulaires. Tu vois, c'est un peu.
+
+SOUI Dhaker (Acoss)
+33 minutes 24 secondes33:24
+SOUI Dhaker (Acoss) 33 minutes 24 secondes
+Et pourquoi ?
+
+DIAKHATE Youssoupha (Acoss)
+33 minutes 30 secondes33:30
+DIAKHATE Youssoupha (Acoss) 33 minutes 30 secondes
+C'est pour ça que les gens ne se retrouvent plus.
+
+SOUI Dhaker (Acoss)
+33 minutes 33 secondes33:33
+SOUI Dhaker (Acoss) 33 minutes 33 secondes
+Y a pas y a pas y a pas dans le roadmap, y a pas un programme de migrer vraiment tout ça au dans le système SI rh qu'on est en train de concevoir, c'est-à-dire c'est-à-dire ?
+
+DIAKHATE Youssoupha (Acoss)
+33 minutes 44 secondes33:44
+DIAKHATE Youssoupha (Acoss) 33 minutes 44 secondes
+Non parce que ça va, c'est interconnecté. L'avantage c'est que c'est interconnecté à la paye. Mais tu as fait le automate frais de déplacement ou frais de déplacement sur un autre module aussi comme celui-là, frais de déplacement ou 2AP et absence. Mais c'est ça là.
+
+SOUI Dhaker (Acoss)
+33 minutes 58 secondes33:58
+SOUI Dhaker (Acoss) 33 minutes 58 secondes
+Ouais.
+
+DIAKHATE Youssoupha (Acoss)
+34 minutes34:00
+DIAKHATE Youssoupha (Acoss) 34 minutes
+L'avantage, c'est qu'ils écrivent directement là-dedans, alors que nous on va écrire dans des bases de données, mais on vient pas écrire ici.
+
+SOUI Dhaker (Acoss)
+34 minutes 6 secondes34:06
+SOUI Dhaker (Acoss) 34 minutes 6 secondes
+Non mais à part ces 2 systèmes, c'est quoi ? Ouvre, ouvre le circuit s'il te plaît sélectionner un circuit.
+SOUI Dhaker (Acoss) 34 minutes 15 secondes
+Demande de congé, c'est pas d'accord, OK, c'est pas dans le.
+
+DIAKHATE Youssoupha (Acoss)
+34 minutes 19 secondes34:19
+DIAKHATE Youssoupha (Acoss) 34 minutes 19 secondes
+Non mais nous on a un truc par exemple, ma rémunération c'est pas.
+DIAKHATE Youssoupha (Acoss) 34 minutes 24 secondes
+De l'autre côté donc, si on a une rubrique qui est à la fois ici et là-bas.
+DIAKHATE Youssoupha (Acoss) 34 minutes 30 secondes
+Pour les utilisateurs, ils vont être perdus.
+DIAKHATE Youssoupha (Acoss) 34 minutes 35 secondes
+Et ça, c'est qu'une, c'est qu'un pan, vous avez, il est où ici ? Ça on a dit, ça on a dit si je prends ça.
+DIAKHATE Youssoupha (Acoss) 34 minutes 46 secondes
+Tu vois une autre application externe de gpec de gestion des carrières et des emplois où là les gens vont trouver leur entretien. Enfin ça, c'est le dernier que je fais pour Jean-Yves. On retrouve les entretiens, on retrouve la formation de l'équipe, et cetera, et cetera. Donc tout ça c'est des rubriques.
+
+SOUI Dhaker (Acoss)
+34 minutes 49 secondes34:49
+SOUI Dhaker (Acoss) 34 minutes 49 secondes
+y.
+
+Mais c'est une, c'est le catalogue de formation, et cetera, le référentiel des emplois.
+
+SOUI Dhaker (Acoss)
+35 minutes 11 secondes35:11
+SOUI Dhaker (Acoss) 35 minutes 11 secondes
+Est-ce que ça sera judicieux de poker faire une petite poke pour englober ça dans une iframe et on voit qu'est-ce que ça donne ? Mais par contre iframe c'est y aura un décalage de UI ?
+
+ALEXANDRE Romain (Acoss)
+40 minutes 13 secondes40:13
+ALEXANDRE Romain (Acoss) 40 minutes 13 secondes
+C'est ça ? Oui, oui, c'est aussi simple que ça.
+
+SOUI Dhaker (Acoss)
+40 minutes 16 secondes40:16
+SOUI Dhaker (Acoss) 40 minutes 16 secondes
+Oui, et comme ça et comme ça on ouais.
+
+DIAKHATE Youssoupha (Acoss)
+40 minutes 16 secondes40:16
+DIAKHATE Youssoupha (Acoss) 40 minutes 16 secondes
+Voilà mais après la question c'est quand ? Pardon, quand tu arrives ici dehors, voilà je tant que tu ne l'ouvres pas pour faire ça.
+DIAKHATE Youssoupha (Acoss) 40 minutes 28 secondes
+Ça ou pardon, ça, tu ne sais pas ce qu'il y a comme service, donc moi ma question c'est comment on pourrait ?
+DIAKHATE Youssoupha (Acoss) 40 minutes 36 secondes
+Dire à l'utilisateur depuis l'espace unifié que attention, tout ce qui touche à votre situation personnelle, la rémunération, ça dépend si on en a de l'autre côté, mais tout ce qui est là et qui n'est pas de l'autre côté, on dit aux gens, Ben ma situation personnelle, on fait un lien et ça renvoie vers cette page-là.
+
+SOUI Dhaker (Acoss)
+40 minutes 56 secondes40:56
+SOUI Dhaker (Acoss) 40 minutes 56 secondes
+Oui, oui, oui.
+
+DIAKHATE Youssoupha (Acoss)
+40 minutes 56 secondes40:56
+DIAKHATE Youssoupha (Acoss) 40 minutes 56 secondes
+Si vous voyez ce que julien récupérer les grandes rubriques là.
+
+SOUI Dhaker (Acoss)
+40 minutes 59 secondes40:59
+SOUI Dhaker (Acoss) 40 minutes 59 secondes
+Et le problème ici, le lien est fixe, tu vois ce que je veux dire ?
+
+DIAKHATE Youssoupha (Acoss)
+41 minutes 3 secondes41:03
+DIAKHATE Youssoupha (Acoss) 41 minutes 3 secondes
+Oui, mais au moins tu arrives là.
+DIAKHATE Youssoupha (Acoss) 41 minutes 5 secondes
+Et après si tu fais ça, tu as ça, si tu fais pas ça, tu retrouves le rubrique ici.
+
+SOUI Dhaker (Acoss)
+41 minutes 6 secondes41:06
+SOUI Dhaker (Acoss) 41 minutes 6 secondes
+Uio.
+
+DIAKHATE Youssoupha (Acoss)
+41 minutes 12 secondes41:12
+DIAKHATE Youssoupha (Acoss) 41 minutes 12 secondes
+Sinon on sera jamais que pour se déplacer il faut aller dans le et venir ici.
+
+ALEXANDRE Romain (Acoss)
+41 minutes 19 secondes41:19
+ALEXANDRE Romain (Acoss) 41 minutes 19 secondes
+Ouais.
+
+DIAKHATE Youssoupha (Acoss)
+41 minutes 19 secondes41:19
+DIAKHATE Youssoupha (Acoss) 41 minutes 19 secondes
+Si je veux faire une demande de départ à la retraite ou je sais pas quoi là de par autre que retraite, je veux tout ça modifier mon truc de santé.
+DIAKHATE Youssoupha (Acoss) 41 minutes 27 secondes
+Tout ça, c'est des choses qui intéressent la gens.
+
+SOUI Dhaker (Acoss)
+41 minutes 29 secondes41:29
+SOUI Dhaker (Acoss) 41 minutes 29 secondes
+Oui.
+SOUI Dhaker (Acoss) 41 minutes 30 secondes
+Oui et oui donc dans ce cas youssoupha, on peut se on peut rediriger vers cette page, c'est-à-dire c'est-à-dire on aura je t'explique par exemple par exemple dans espace unifié.
+
+DIAKHATE Youssoupha (Acoss)
+41 minutes 39 secondes41:39
+DIAKHATE Youssoupha (Acoss) 41 minutes 39 secondes
+Mais comment ? Quand tu rediriges ça, c'est technique, mais.
+DIAKHATE Youssoupha (Acoss) 41 minutes 44 secondes
+Merci.
+
+SOUI Dhaker (Acoss)
+41 minutes 46 secondes41:46
+SOUI Dhaker (Acoss) 41 minutes 46 secondes
+On aura demande d'attestation diverse, d'accord ?
+
+DIAKHATE Youssoupha (Acoss)
+41 minutes 50 secondes41:50
+DIAKHATE Youssoupha (Acoss) 41 minutes 50 secondes
+Bye.
+DIAKHATE Youssoupha (Acoss) 41 minutes 52 secondes
+Fallait laisser un par un.
+
+SOUI Dhaker (Acoss)
+41 minutes 57 secondes41:57
+SOUI Dhaker (Acoss) 41 minutes 57 secondes
+Obligé, c'est ce que tu fais toi, c'est ce que tu fais lorsque t'as.
+
+DIAKHATE Youssoupha (Acoss)
+41 minutes 59 secondes41:59
+DIAKHATE Youssoupha (Acoss) 41 minutes 59 secondes
+Moi j'aurais dit par grande.
+
+SOUI Dhaker (Acoss)
+42 minutes 2 secondes42:02
+SOUI Dhaker (Acoss) 42 minutes 2 secondes
+Oui.
+
+DIAKHATE Youssoupha (Acoss)
+42 minutes 2 secondes42:02
+DIAKHATE Youssoupha (Acoss) 42 minutes 2 secondes
+Tu vois ? Mais bon, après ma situation personnelle, qu'est-ce qu'on entend par ma situation personnelle ? Tu vois, c'est pas clair.
+
+SOUI Dhaker (Acoss)
+42 minutes 10 secondes42:10
+SOUI Dhaker (Acoss) 42 minutes 10 secondes
+Non mais toi qu'est-ce que c'est ce que tu fais, tu entres ici, tu accèdes ici et tu filtres. Tu vois dans l'espace unifié, on peut-on peut imaginer une étape intermédiaire.
+SOUI Dhaker (Acoss) 42 minutes 25 secondes
+Sur lorsqu'on clique sur autre, on aura des tuiles ou des pavés ou des carrés. Avec ma situation personnelle, ma rémunération, ma tu vois, c'est tout ça et lorsque tu cliques.
+SOUI Dhaker (Acoss) 42 minutes 40 secondes
+Sur n'importe quel lien ça te redirige vers ici on est d'accord que l'utilisateur et les agents de l'urssaf il connaît comment ça fonctionne ça non ?
+SOUI Dhaker (Acoss) 42 minutes 52 secondes
+Icones.
+
+DIAKHATE Youssoupha (Acoss)
+42 minutes 54 secondes42:54
+DIAKHATE Youssoupha (Acoss) 42 minutes 54 secondes
+Non parce que aujourd'hui c'est ça le problème, c'est on est obligé d'appeler le notre gestionnaire qui nous dit Ah bah oui, tu vas dans le tu vas à tel endroit, tu vas, tu vas, tu vois.
+
+SOUI Dhaker (Acoss)
+42 minutes 54 secondes42:54
+SOUI Dhaker (Acoss) 42 minutes 54 secondes
+C'est-à-dire non.
+SOUI Dhaker (Acoss) 43 minutes 5 secondes
+OK, juste juste clique sur sélectionner un groupement.
+SOUI Dhaker (Acoss) 43 minutes 11 secondes
+C'est le ma situation personnelle. Clique sur ça. Ok, le lien n'a pas changé. Clique sur demande de d'attestation diverse.
+SOUI Dhaker (Acoss) 43 minutes 19 secondes
+no.
+
+DIAKHATE Youssoupha (Acoss)
+43 minutes 19 secondes43:19
+DIAKHATE Youssoupha (Acoss) 43 minutes 19 secondes
+Ah, le 2e.
+
+SOUI Dhaker (Acoss)
+43 minutes 20 secondes43:20
+SOUI Dhaker (Acoss) 43 minutes 20 secondes
+Pour le 2e.
+
+DIAKHATE Youssoupha (Acoss)
+43 minutes 22 secondes43:22
+DIAKHATE Youssoupha (Acoss) 43 minutes 22 secondes
+Je peux le te le.
+
+SOUI Dhaker (Acoss)
+43 minutes 27 secondes43:27
+SOUI Dhaker (Acoss) 43 minutes 27 secondes
+Oui, oui, j'ai vu que.
+
+DIAKHATE Youssoupha (Acoss)
+43 minutes 29 secondes43:29
+DIAKHATE Youssoupha (Acoss) 43 minutes 29 secondes
+Bah est-ce que si je fais ça tac contrôle C je vais ici ?
+
+SOUI Dhaker (Acoss)
+43 minutes 32 secondes43:32
+SOUI Dhaker (Acoss) 43 minutes 32 secondes
+Non, c'est non, c'est non, ça sera, ça sera les filtres parce que ça, se joue dans les sessions et dans le cash.
+
+DIAKHATE Youssoupha (Acoss)
+43 minutes 39 secondes43:39
+DIAKHATE Youssoupha (Acoss) 43 minutes 39 secondes
+Par la.
+
+SOUI Dhaker (Acoss)
+43 minutes 41 secondes43:41
+SOUI Dhaker (Acoss) 43 minutes 41 secondes
+Ah attends, Ah oui, ça donnait quoi, ça donnait quoi ?
+
+DIAKHATE Youssoupha (Acoss)
+43 minutes 42 secondes43:42
+DIAKHATE Youssoupha (Acoss) 43 minutes 42 secondes
+Oui.
+DIAKHATE Youssoupha (Acoss) 43 minutes 45 secondes
+Non, non, ça c'est un rhizina.
+
+SOUI Dhaker (Acoss)
+43 minutes 46 secondes43:46
+SOUI Dhaker (Acoss) 43 minutes 46 secondes
+C'est dès le début, on est d'accord. Oui, parce que ça joue, ça joue dans le dans le cache et tout. Ok, OK, ça c'est.
+
+DIAKHATE Youssoupha (Acoss)
+43 minutes 48 secondes43:48
+DIAKHATE Youssoupha (Acoss) 43 minutes 48 secondes
+La page générique.
+
+SOUI Dhaker (Acoss)
+43 minutes 57 secondes43:57
+SOUI Dhaker (Acoss) 43 minutes 57 secondes
+Est-ce que.
+
+DIAKHATE Youssoupha (Acoss)
+44 minutes44:00
+DIAKHATE Youssoupha (Acoss) 44 minutes
+Mais déjà si on arrive à alors moi ce que je disais c'est si ça, si on n'a pas de formulaire aujourd'hui.
+DIAKHATE Youssoupha (Acoss) 44 minutes 7 secondes
+Dans notre espace-là qui comporte ces rubriques-là, on prend juste ces rubriques-là dans l'espace unifié et on renvoie vers cette page. Si maintenant on a des services comme par exemple la rémunération et on l'a déjà dans notre espace unifié, ça veut dire que ça c'est des c'est des services en plus qu'on n'a pas nous.
+DIAKHATE Youssoupha (Acoss) 44 minutes 24 secondes
+Dans ce cas-là, on liste nos services dans ma rémunération et puis on se rajoute une ligne autre autre service boum qui renverrait ici.
+DIAKHATE Youssoupha (Acoss) 44 minutes 33 secondes
+Sur cette page.
+DIAKHATE Youssoupha (Acoss) 44 minutes 35 secondes
+Comme ça complète les rubriques où y a personne, Ben on prend de l'autre côté.
+
+
+ALEXANDRE Romain (Acoss) 47 minutes 17 secondes
+Donc ça non, mais ça, va être intégral.
+
+DIAKHATE Youssoupha (Acoss)
+47 minutes 21 secondes47:21
+DIAKHATE Youssoupha (Acoss) 47 minutes 21 secondes
+Oui oui oui oui oui mais là ils ont fait un renvoi vers le notre tu vois là c'est un renvoi vers l'espace de pratique rh en fait ça c'est le truc officiel là ils sont là de la et après t'as le rubrique autre formulaire où l'organisme peut mettre ce qu'ils veulent tu vois là c'est télétravail.
+
+ALEXANDRE Romain (Acoss)
+47 minutes 26 secondes47:26
+ALEXANDRE Romain (Acoss) 47 minutes 26 secondes
+Bien.
+
+DIAKHATE Youssoupha (Acoss)
+47 minutes 36 secondes47:36
+DIAKHATE Youssoupha (Acoss) 47 minutes 36 secondes
+Attestation de canopée, si je fais canopée et pratique rh, je vais arriver ici.
+DIAKHATE Youssoupha (Acoss) 47 minutes 42 secondes
+Je vais arriver là.
+
+ALEXANDRE Romain (Acoss)
+47 minutes 43 secondes47:43
+ALEXANDRE Romain (Acoss) 47 minutes 43 secondes
+Ouais.
+
+DIAKHATE Youssoupha (Acoss)
+47 minutes 44 secondes47:44
+DIAKHATE Youssoupha (Acoss) 47 minutes 44 secondes
+Donc là si je prends, c'est pas celui-là, c'était lequel ?
+
+ALEXANDRE Romain (Acoss)
+47 minutes 45 secondes47:45
+ALEXANDRE Romain (Acoss) 47 minutes 45 secondes
+Mais après si on fait bien le boulot sur espace unifié attends toi attends toi d'avoir des demandes de partout de d'intégrer tous les formulaires de cette manière-là
+
+DIAKHATE Youssoupha (Acoss)
+47 minutes 57 secondes47:57
+DIAKHATE Youssoupha (Acoss) 47 minutes 57 secondes
+Bah c'est ça. Voilà tu vois, même pour eux ils ont des vieux pratiques rh et ils sont incapables d'arriver sur la page de pratiques et rh parce qu'ils arrivent directement sur canopé. Il aurait fallu qu'ils prennent tu vois parce que là c'est de JS, nous aussi ils peuvent pas.
+DIAKHATE Youssoupha (Acoss) 48 minutes 14 secondes
+Tu vois là je peux pas récupérer le de vie pratique donc comme eux ils arrivent sur ils renvoient vers l'accueil.
+
+SOUI Dhaker (Acoss)
+48 minutes 22 secondes48:22
+SOUI Dhaker (Acoss) 48 minutes 22 secondes
+Ça sera la même chose qu'on va faire avec le ouais.
+
+DIAKHATE Youssoupha (Acoss)
+48 minutes 30 secondes48:30
+DIAKHATE Youssoupha (Acoss) 48 minutes 30 secondes
+Donc voilà un peu le contexte quand même.
+
+SOUI Dhaker (Acoss)
+48 minutes 41 secondes48:41
+SOUI Dhaker (Acoss) 48 minutes 41 secondes
+C'est costaud comme projet.
+
+ALEXANDRE Romain (Acoss)
+48 minutes 43 secondes48:43
+ALEXANDRE Romain (Acoss) 48 minutes 43 secondes
+Eh oui, c'est costaud.
+
+DIAKHATE Youssoupha (Acoss)
+48 minutes 45 secondes48:45
+DIAKHATE Youssoupha (Acoss) 48 minutes 45 secondes
+Oui, mais c'est la non, c'est faut qu'on réfléchisse à.
+DIAKHATE Youssoupha (Acoss) 48 minutes 51 secondes
+Avoir quelque chose de cohérent, c'est ça qui est difficile. C'est pour ça que personne n'a réussi à le faire jusqu'à présent. Chacun fait un petit bout autonome quelque part.
+
+ALEXANDRE Romain (Acoss)
+48 minutes 56 secondes48:56
+ALEXANDRE Romain (Acoss) 48 minutes 56 secondes
+Non, le la la la la.
+
+DIAKHATE Youssoupha (Acoss)
+48 minutes 59 secondes48:59
+DIAKHATE Youssoupha (Acoss) 48 minutes 59 secondes
+Alors moi ça me, ça me tient à cœur, c'est mon rêve de faire ce truc-là, mais bien c'est.
+
+SOUI Dhaker (Acoss)
+49 minutes 6 secondes49:06
+SOUI Dhaker (Acoss) 49 minutes 6 secondes
+On va, on va réaliser ton rêve.
+
+DIAKHATE Youssoupha (Acoss)
+49 minutes 7 secondes49:07
+DIAKHATE Youssoupha (Acoss) 49 minutes 7 secondes
+Voilà, et sarah de la cé.
+
+SOUI Dhaker (Acoss)
+49 minutes 10 secondes49:10
+SOUI Dhaker (Acoss) 49 minutes 10 secondes
+T'as réalisé ton rêve, t'inquiète.
+
+DIAKHATE Youssoupha (Acoss)
+49 minutes 10 secondes49:10
+DIAKHATE Youssoupha (Acoss) 49 minutes 10 secondes
+Ah bah j'espère.
+DIAKHATE Youssoupha (Acoss) 49 minutes 12 secondes
+J'espère, j'espère.
+DIAKHATE Youssoupha (Acoss) 49 minutes 14 secondes
+Et pareil donc on a parlé de entre parenthèses là le nombre de trucs à traiter et cetera et cetera ça c'est dans la vue manager donc vous avez 5 demandes d'absence à traiter vous avez 120 demandes de télétravail à traiter non.
+DIAKHATE Youssoupha (Acoss) 49 minutes 30 secondes
+Mais si j'avais ce truc là dans mon espace unifié, je n'attendrais pas d'avoir 120 demandes à chaque fois. C'est ça ? J'ai 20 demandes de ceci de congé, 150 demandes de télétravail. Parce que tous les jours tu dois dire si tu si tu prends une.
+DIAKHATE Youssoupha (Acoss) 49 minutes 46 secondes
+Si tu peux, si tu es sur site ou pas.
+DIAKHATE Youssoupha (Acoss) 49 minutes 51 secondes
+Là la validation de et cetera, et cetera. Là le la formation. Donc ça c'est dans la rubrique formation catalogue de formation qu'on retrouve ici dans le canopé dans la pratique et rh. Les formulaires, ils sont là aujourd'hui.
+DIAKHATE Youssoupha (Acoss) 50 minutes 8 secondes
+Les formulaires, les outils nationaux de formation, et cetera, et que vous avez vu avec nos copains de la.
+DIAKHATE Youssoupha (Acoss) 50 minutes 16 secondes
+Voilà et puis nous.
+DIAKHATE Youssoupha (Acoss) 50 minutes 20 secondes
+Les outils collaborateurs.
+
+SOUI Dhaker (Acoss)
+50 minutes 20 secondes50:20
+SOUI Dhaker (Acoss) 50 minutes 20 secondes
+Non, le sofa, le no, le no le de silla.
+
+DIAKHATE Youssoupha (Acoss)
+50 minutes 24 secondes50:24
+DIAKHATE Youssoupha (Acoss) 50 minutes 24 secondes
+Oui.
+
+SOUI Dhaker (Acoss)
+50 minutes 25 secondes50:25
+SOUI Dhaker (Acoss) 50 minutes 25 secondes
+Ok.
+
+DIAKHATE Youssoupha (Acoss)
+50 minutes 26 secondes50:26
+DIAKHATE Youssoupha (Acoss) 50 minutes 26 secondes
+Voilà les quelques formulaires qu'on a aujourd'hui et là-dessus, donc c'est des vignettes et au Bureau on a fait rajouter un dernier après le truc, le Tag il est là.
+DIAKHATE Youssoupha (Acoss) 50 minutes 37 secondes
+Temps de compresse.
+
+SOUI Dhaker (Acoss)
+50 minutes 37 secondes50:37
+SOUI Dhaker (Acoss) 50 minutes 37 secondes
+Ça, ce qu'on va, ce qu'on va développer sur convertigo les ces formulaires, d'accord.
+
+DIAKHATE Youssoupha (Acoss)
+50 minutes 41 secondes50:41
+DIAKHATE Youssoupha (Acoss) 50 minutes 41 secondes
+Oui, tout à fait.
+DIAKHATE Youssoupha (Acoss) 50 minutes 44 secondes
+Ça c'est un progiciel, c'est l'outil qui nous permet de réserver des billets quand on est en déplacement. Donc c'est pas nous qui l'avons développé. Cafit aussi c'est l'outil de covoiturage. Donc voilà, typiquement ça c'est de là, c'est des outils externes.
+DIAKHATE Youssoupha (Acoss) 50 minutes 58 secondes
+Développer en interne urssaf.
+DIAKHATE Youssoupha (Acoss) 51 minutes 3 secondes
+Mais tu cliques, tu sors.
+
+SOUI Dhaker (Acoss)
+51 minutes 6 secondes51:06
+SOUI Dhaker (Acoss) 51 minutes 6 secondes
+Ouais, tu c'est la notre.
+
+DIAKHATE Youssoupha (Acoss)
+51 minutes 7 secondes51:07
+DIAKHATE Youssoupha (Acoss) 51 minutes 7 secondes
+Pas si mon mot de passe fonctionne toujours.
+DIAKHATE Youssoupha (Acoss) 51 minutes 12 secondes
+Ok, c'est le lien et ça.
+
+SOUI Dhaker (Acoss)
+51 minutes 14 secondes51:14
+SOUI Dhaker (Acoss) 51 minutes 14 secondes
+Votre compte a été bloqué, Monsieur.
+
+DIAKHATE Youssoupha (Acoss)
+51 minutes 17 secondes51:17
+DIAKHATE Youssoupha (Acoss) 51 minutes 17 secondes
+Ouais, ça fait longtemps que j'ai pas utilisé, c'est pas grave.
+DIAKHATE Youssoupha (Acoss) 51 minutes 20 secondes
+Celui-là, je l'ai jamais utilisé, je sais même pas ce que c'est le c'est le c'est le pirage.
+DIAKHATE Youssoupha (Acoss) 51 minutes 26 secondes
+Voilà un peu.
+DIAKHATE Youssoupha (Acoss) 51 minutes 28 secondes
+Ça, c'est la qu'il a développé, c'était Walid qui avait fait le l'atelier avec eux, la boussole numérique.
+
+SOUI Dhaker (Acoss)
+51 minutes 37 secondes51:37
+SOUI Dhaker (Acoss) 51 minutes 37 secondes
+D'accord, il s'est marié Walid.
+
+DIAKHATE Youssoupha (Acoss)
+51 minutes 37 secondes51:37
+DIAKHATE Youssoupha (Acoss) 51 minutes 37 secondes
+C'est si tu veux te retrouver. Ah bah tiens, c'est un c'est un. C'est un poste qu'on veut faire pour le guider vers l'application qui le convient et vers le support d'accompagnement.
+DIAKHATE Youssoupha (Acoss) 51 minutes 49 secondes
+Je sais pas si ça marche.
+DIAKHATE Youssoupha (Acoss) 51 minutes 52 secondes
+Tiens, où est-ce qu'il faut cliquer ?
+DIAKHATE Youssoupha (Acoss) 51 minutes 55 secondes
+Non, ça c'est le tour vers le haut.
+
+Non, ça se retourne le boussole de me permet de.
+
+DIAKHATE Youssoupha (Acoss)
+52 minutes52:00
+DIAKHATE Youssoupha (Acoss) 52 minutes
+Lisa.
+
+DIAKHATE Youssoupha (Acoss)
+57 minutes 26 secondes57:26
+DIAKHATE Youssoupha (Acoss) 57 minutes 26 secondes
+Parce que c'est la fin des vacances scolaires. Alors si vous voulez mardi de attends ça c'est quoi update update quoi ?
+DIAKHATE Youssoupha (Acoss) 57 minutes 38 secondes
+Qui vous êtes dans le dame tous les 2 ou pas ?
+
+SOUI Dhaker (Acoss)
+57 minutes 41 secondes57:41
+SOUI Dhaker (Acoss) 57 minutes 41 secondes
+Non, moi, non.
+
+DIAKHATE Youssoupha (Acoss)
+57 minutes 42 secondes57:42
+DIAKHATE Youssoupha (Acoss) 57 minutes 42 secondes
+Non, OK. Donc à partir de 10h30 si vous voulez. À partir de 10h30 jusqu'à 11 h si vous voulez. 30 Min, on le.
+
+SOUI Dhaker (Acoss)
+57 minutes 49 secondes57:49
+SOUI Dhaker (Acoss) 57 minutes 49 secondes
+Ok.
+SOUI Dhaker (Acoss) 57 minutes 50 secondes
+De toute façon, on serait sur le site, toi, tu viendrais, tu viendras.
+
+DIAKHATE Youssoupha (Acoss)
+57 minutes 51 secondes57:51
+DIAKHATE Youssoupha (Acoss) 57 minutes 51 secondes
+ma
+DIAKHATE Youssoupha (Acoss) 57 minutes 54 secondes
+Oui, oui, non, moi je viendrai sur le site.
+
+SOUI Dhaker (Acoss)
+57 minutes 57 secondes57:57
+SOUI Dhaker (Acoss) 57 minutes 57 secondes
+D'accord, OK, donc OK, OK, mardi on fait comme ça.
+
+DIAKHATE Youssoupha (Acoss)
+57 minutes 59 secondes57:59
+DIAKHATE Youssoupha (Acoss) 57 minutes 59 secondes
+Ok.
+DIAKHATE Youssoupha (Acoss) 58 minutes
+Mais bloque un créneau quand même, je te laisse bloquer là comme ça.
+
+ALEXANDRE Romain (Acoss)
+58 minutes 5 secondes58:05
+ALEXANDRE Romain (Acoss) 58 minutes 5 secondes
+Mardi ou lundi ?
+
+DIAKHATE Youssoupha (Acoss)
+58 minutes 6 secondes58:06
+DIAKHATE Youssoupha (Acoss) 58 minutes 6 secondes
+Mardi, mardi.
+
+ALEXANDRE Romain (Acoss)
+58 minutes 7 secondes58:07
+ALEXANDRE Romain (Acoss) 58 minutes 7 secondes
+Mardi ? Mardi ? Oui, d'accord, on se voit mardi.
+
+DIAKHATE Youssoupha (Acoss)
+58 minutes 8 secondes58:08
+DIAKHATE Youssoupha (Acoss) 58 minutes 8 secondes
+Mardi, lundi, je vous laisse tranquille, regarder OK. Mardi matin, on a 09h30.
+
+ALEXANDRE Romain (Acoss)
+58 minutes 10 secondes58:10
+ALEXANDRE Romain (Acoss) 58 minutes 10 secondes
+Ouais.
+
+DIAKHATE Youssoupha (Acoss)
+58 minutes 17 secondes58:17
+DIAKHATE Youssoupha (Acoss) 58 minutes 17 secondes
+Romain, le retour, c'était hier, j'avais mis ça mais j'avais pas vu que t'étais absent. Alors s'il vous plaît, je sais que vous le mettez dans le shift, mais dans teams, quand les gens vont vous inviter, ils vont voir que vous n'êtes pas. Attendez hop.
+
+ALEXANDRE Romain (Acoss)
+58 minutes 20 secondes58:20
+ALEXANDRE Romain (Acoss) 58 minutes 20 secondes
+Oui.
+ALEXANDRE Romain (Acoss) 58 minutes 30 secondes
+Ok, Ouais, je vais faire en sorte de le mettre le général, oui.
+
+DIAKHATE Youssoupha (Acoss)
+58 minutes 33 secondes58:33
+DIAKHATE Youssoupha (Acoss) 58 minutes 33 secondes
+Voilà, mettez le aussi ici, vous voyez comme moi là en mettant en absence, là il est où c'est le statut là disponible, occupé machin et tout ça si tu prends un truc.
+DIAKHATE Youssoupha (Acoss) 58 minutes 48 secondes
+Tu vois ici si tu l'as comme ça, du coup c'est rose pour tout le monde est absent et on sait que cette journée-là t'es pas là.
+
+ALEXANDRE Romain (Acoss)
+58 minutes 54 secondes58:54
+ALEXANDRE Romain (Acoss) 58 minutes 54 secondes
+Bien.
+
+DIAKHATE Youssoupha (Acoss)
+58 minutes 55 secondes58:55
+DIAKHATE Youssoupha (Acoss) 58 minutes 55 secondes
+Nous c'est fait automatiquement par l'outil et que vous avez vu la rh dès que tu poses une journée boum c'est.
+DIAKHATE Youssoupha (Acoss) 59 minutes 2 secondes
+Et ça, on le consomme dans le bureau via un web service.
+DIAKHATE Youssoupha (Acoss) 59 minutes 6 secondes
+C'est comme ça qu'on affiche le calendrier de présence des gens.
+DIAKHATE Youssoupha (Acoss) 59 minutes 10 secondes
+Dans le Bureau.
+
+ALEXANDRE Romain (Acoss)
+59 minutes 12 secondes59:12
+ALEXANDRE Romain (Acoss) 59 minutes 12 secondes
+3.
+
+DIAKHATE Youssoupha (Acoss)
+59 minutes 15 secondes59:15
+DIAKHATE Youssoupha (Acoss) 59 minutes 15 secondes
+Ok.
+DIAKHATE Youssoupha (Acoss) 59 minutes 16 secondes
+Donc peut-être là mardi, 10h30, 11 h si vous voulez.
+
+SOUI Dhaker (Acoss)
+59 minutes 21 secondes59:21
+SOUI Dhaker (Acoss) 59 minutes 21 secondes
+Tout bien.
+
+DIAKHATE Youssoupha (Acoss)
+59 minutes 22 secondes59:22
+DIAKHATE Youssoupha (Acoss) 59 minutes 22 secondes
+C'est bon ?
+
+SOUI Dhaker (Acoss)
+59 minutes 23 secondes59:23
+SOUI Dhaker (Acoss) 59 minutes 23 secondes
+Moi j'ai rien donc.
+
+ALEXANDRE Romain (Acoss)
+59 minutes 26 secondes59:26
+ALEXANDRE Romain (Acoss) 59 minutes 26 secondes
+Un clic.
+ALEXANDRE Romain (Acoss) 59 minutes 27 secondes
+Attends, je vais fumer.
+
+DIAKHATE Youssoupha (Acoss)
+59 minutes 28 secondes59:28
+DIAKHATE Youssoupha (Acoss) 59 minutes 28 secondes
+Non, pour une fois quand même, on laisse du temps à la réflexion sur un projet.
+
+SOUI Dhaker (Acoss)
+59 minutes 34 secondes59:34
+SOUI Dhaker (Acoss) 59 minutes 34 secondes
+Oh.
+
+DIAKHATE Youssoupha (Acoss)
+59 minutes 35 secondes59:35
+DIAKHATE Youssoupha (Acoss) 59 minutes 35 secondes
+Pas juste une maquette de romain, c'est pas juste. Enfin c'est pas péjoratif pour romain mais juste un jet de ce qu'il a dans sa tête et puis boum on développe. Après on se pose 50000 questions et on casse tout et romain n'est pas content et vous non plus parce que vous avez déjà développé quelque chose qu'il faut tout casser.
+DIAKHATE Youssoupha (Acoss) 59 minutes 51 secondes
+Non, donc.
+
+SOUI Dhaker (Acoss)
+59 minutes 51 secondes59:51
+SOUI Dhaker (Acoss) 59 minutes 51 secondes
+Oui oui c'est bien de travailler en binôme sur la réflexion d'habitude youssoupha je suis et moi tu me connais, je suis honnête. D'habitude on n'a pas ce temps de réflexion, c'est pour ça.
+SOUI Dhaker (Acoss) 1 heure 5 secondes
+Parfois, je le sens que y a des quelques retards sur quelques projets donc.
+
+DIAKHATE Youssoupha (Acoss)
+1 heure 8 secondes1:00:08
+DIAKHATE Youssoupha (Acoss) 1 heure 8 secondes
+Va.
+DIAKHATE Youssoupha (Acoss) 1 heure 10 secondes
+Voilà mais on le paye cher, après on peut le payer cher après, donc vaut mieux la nous déjà parce que typiquement si on avait montré le métier, ils auraient fait peut-être pas mal de remarques qu'on a déjà faites nous. Donc on le voit déjà entre nous et si c'est OK on va.
+
+SOUI Dhaker (Acoss)
+1 heure 14 secondes1:00:14
+SOUI Dhaker (Acoss) 1 heure 14 secondes
+Ouais.
+
+DIAKHATE Youssoupha (Acoss)
+1 heure 25 secondes1:00:25
+DIAKHATE Youssoupha (Acoss) 1 heure 25 secondes
+Tu vois la et le scope, tu étais à l'atelier romain la dernière fois.
+
+ALEXANDRE Romain (Acoss)
+1 heure 30 secondes1:00:30
+ALEXANDRE Romain (Acoss) 1 heure 30 secondes
+Oui, oui, oui, ouais.
+
+DIAKHATE Youssoupha (Acoss)
+1 heure 30 secondes1:00:30
+DIAKHATE Youssoupha (Acoss) 1 heure 30 secondes
+La semaine dernière voilà, mais la semaine dernière normalement c'était le bac, donc là cette fois-ci c'est le front, donc c'est un nouveau projet Dakar, mais pour l'instant tu étais là pour tes dhaker.
+
+SOUI Dhaker (Acoss)
+1 heure 40 secondes1:00:40
+SOUI Dhaker (Acoss) 1 heure 40 secondes
+J'étais là, j'étais là.
+
+DIAKHATE Youssoupha (Acoss)
+1 heure 42 secondes1:00:42
+DIAKHATE Youssoupha (Acoss) 1 heure 42 secondes
+Voilà pour la partie back, donc là vous aviez aussi commencé le la partie.
+
+SOUI Dhaker (Acoss)
+1 heure 47 secondes1:00:47
+SOUI Dhaker (Acoss) 1 heure 47 secondes
+Non mais je suis pas convié sur la partie franc, je sais pas pourquoi mais.
+
+DIAKHATE Youssoupha (Acoss)
+1 heure 48 secondes1:00:48
+DIAKHATE Youssoupha (Acoss) 1 heure 48 secondes
+Les.
+DIAKHATE Youssoupha (Acoss) 1 heure 50 secondes
+Non non, la le jeudi dernier, là où je sais plus quel jour j'étais absent. Voilà donc vous avez fini le bac et vous avez même commencé à entamer la partie front.
+
+SOUI Dhaker (Acoss)
+1 heure 53 secondes1:00:53
+SOUI Dhaker (Acoss) 1 heure 53 secondes
+Oui, je te convié, ouais.
+SOUI Dhaker (Acoss) 1 heure 59 secondes
+Oui.
+
+DIAKHATE Youssoupha (Acoss)
+1 heure 1 minute1:01:00
+DIAKHATE Youssoupha (Acoss) 1 heure 1 minute
+OK voilà donc on le laisse tranquille encore toi. Pour l'instant on avance avec Romain et une fois que le métier et le truc on se met d'accord sur le besoin et là après on démarre entre nous. Comment on.
+DIAKHATE Youssoupha (Acoss) 1 heure 1 minute 14 secondes
+Comment on le fait ?
+DIAKHATE Youssoupha (Acoss) 1 heure 1 minute 17 secondes
+Ok, ça marche parfait, hop.
+
+SOUI Dhaker (Acoss)
+1 heure 1 minute 21 secondes1:01:21
+SOUI Dhaker (Acoss) 1 heure 1 minute 21 secondes
+Parfait Messieurs, merci, bon week-end à vous 2 et romain on se capte lundi.
+
+DIAKHATE Youssoupha (Acoss)
+1 heure 1 minute 23 secondes1:01:23
+DIAKHATE Youssoupha (Acoss) 1 heure 1 minute 23 secondes
+Bon week-end, reposez-vous bien.
+
+ALEXANDRE Romain (Acoss)
+1 heure 1 minute 26 secondes1:01:26
+ALEXANDRE Romain (Acoss) 1 heure 1 minute 26 secondes
+Merci, bon week-end.
+ALEXANDRE Romain (Acoss) 1 heure 1 minute 29 secondes
+Ouais, avec plaisir.
+
+SOUI Dhaker (Acoss)
+1 heure 1 minute 30 secondes1:01:30
+SOUI Dhaker (Acoss) 1 heure 1 minute 30 secondes
+O, k, o, k, dale.
+
+ALEXANDRE Romain (Acoss)
+1 heure 1 minute 31 secondes1:01:31
+ALEXANDRE Romain (Acoss) 1 heure 1 minute 31 secondes
+Allez, bon courage.
+
+DIAKHATE Youssoupha (Acoss)
+1 heure 1 minute 31 secondes1:01:31
+DIAKHATE Youssoupha (Acoss) 1 heure 1 minute 31 secondes
+Ça marche à plus.

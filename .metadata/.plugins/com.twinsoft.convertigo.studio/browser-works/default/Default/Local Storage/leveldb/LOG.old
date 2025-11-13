@@ -1,0 +1,6 @@
+2025/11/12-09:13:00.295 2503b91 Reusing MANIFEST /Users/ik/ConvertigoWorkspace/SIRH/.metadata/.plugins/com.twinsoft.convertigo.studio/browser-works/default/Default/Local Storage/leveldb/MANIFEST-000001
+2025/11/12-09:13:00.297 2503b91 Recovering log #7
+2025/11/12-09:13:00.298 2503b91 Reusing old log /Users/ik/ConvertigoWorkspace/SIRH/.metadata/.plugins/com.twinsoft.convertigo.studio/browser-works/default/Default/Local Storage/leveldb/000007.log 
+2025/11/12-09:13:21.626 2503b93 Level-0 table #11: started
+2025/11/12-09:13:21.629 2503b93 Level-0 table #11: 38073 bytes OK
+2025/11/12-09:13:21.632 2503b93 Delete type=0 #7

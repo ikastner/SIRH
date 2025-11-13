@@ -1,0 +1,88 @@
+Sprint,Phase,ID_Tache,Tache,Branche_Git,Priorite,Description,Type,Livrable,Date_Debut,Date_Fin,Duree_Jours,Dependances,Statut,Responsable,Notes
+1,Infrastructure,1.1,Setup projet Convertigo,feature/setup-projet,P0,Initialisation projet Convertigo - Structure dossiers - Configuration base,Development,"✅ Projet Convertigo initialisé
+✅ Structure base prête",Jour 1,Jour 5,5,,A faire,,Première tâche du projet
+1,Infrastructure,1.2,Configuration BDD,feature/config-bdd,P0,"Création BDD PostgreSQL - Scripts SQL - Connexion Convertigo",Database,"✅ BDD créée et accessible
+✅ Scripts SQL validés",Jour 1,Jour 5,5,1.1,A faire,,Utiliser script_bdd_modulaire.sql
+1,Infrastructure,1.3,Architecture projet,feature/architecture-base,P0,Structure Convertigo - Screens - Sequences - Organisation,Development,"✅ Structure base projet prête
+✅ Patterns établis",Jour 3,Jour 8,6,1.1,A faire,,Définir conventions Convertigo
+1,Infrastructure,1.4,Authentification ANAIS,feature/authentification-anais,P0,Connecteur ANAIS - Gestion session - Récupération rôles,Integration,"✅ Authentification ANAIS fonctionnelle
+✅ Session gérée",Jour 6,Jour 10,5,1.2,A faire,,Authentification centralisée
+1,Infrastructure,1.5,Gestion rôles,feature/gestion-roles,P0,RBAC via ANAIS - Contrôle accès - Permissions par rôle,Security,"✅ RBAC opérationnel
+✅ Contrôles d'accès en place",Jour 8,Jour 12,5,1.4,A faire,,S'appuie sur ANAIS
+2,Infrastructure,2.1,Tables statut/workflow,feature/tables-transverses,P0,Implémentation tables statut - workflow_etape - Référentiels,Database,"✅ Tables transverses opérationnelles
+✅ Référentiels créés",Jour 1,Jour 5,5,1.2,A faire,,Utiliser script SQL
+2,Infrastructure,2.2,Séquence traceabilité,feature/traceabilite,P0,Triggers automatiques - Traçabilité complète - Historique,Database,"✅ Triggers créés
+✅ Traçabilité fonctionnelle",Jour 4,Jour 8,5,2.1,A faire,,Automatisation complète
+2,Infrastructure,2.3,Séquence validations,feature/validations-workflow,P0,Gestion workflow multi-étapes - Chaîne validation - Notifications workflow,Development,"✅ Workflow engine fonctionnel
+✅ Validations gérées",Jour 6,Jour 10,5,2.2,A faire,,Workflow multi-étapes
+2,Infrastructure,2.4,Notifications base,feature/notifications-base,P1,Système notifications de base - Table notifications - Séquence création,Development,"✅ Système notifications basique
+✅ Notifications fonctionnelles",Jour 9,Jour 12,4,2.3,A faire,,Notifications automatiques
+3,Badges,3.1,Table badge,feature/table-badge,P0,Création table badge avec tous champs identifiés - Types badges - Colonnes,Database,"✅ Table badge créée
+✅ Tous champs présents",Jour 1,Jour 3,3,2.1,A faire,,Tous types badges inclus
+3,Badges,3.2,Formulaire nouveau collab,feature/badge-nouveau-collab,P0,Screen saisie - Séquence création - Workflow Manager → PCS,Development,"✅ Formulaire nouveau collab opérationnel
+✅ Workflow complet",Jour 4,Jour 8,5,3.1,A faire,,Premier formulaire badge
+3,Badges,3.3,Formulaire départ collab,feature/badge-depart-collab,P0,Screen saisie départ - Gestion prolongation - Séquence création,Development,"✅ Formulaire départ collab opérationnel
+✅ Prolongation gérée",Jour 6,Jour 10,5,3.1,A faire,,Cas départ avec prolongation
+3,Badges,3.4,Workflow badges collab,feature/workflow-badge-collab,P0,Workflow Manager → PCS - Validations - Notifications,Development,"✅ Workflow badges collab complet
+✅ Validations fonctionnelles",Jour 8,Jour 12,5,3.2-3.3,A faire,,Workflow multi-validations
+3,Badges,3.5,Tests badges collab,feature/tests-badge-collab,P1,Tests fonctionnels - Tests workflow - Tests validation,Testing,"✅ Tests passent
+✅ Couverture tests OK",Jour 11,Jour 14,4,3.4,A faire,,Tests automatisés si possible
+4,Badges,4.1,Badge collab perdu,feature/badge-collab-perdu,P0,Formulaire badge perdu - Déclaration - Remplacement,Development,"✅ Formulaire badge perdu opérationnel",Jour 1,Jour 4,4,3.4,A faire,,Cas perte/vol
+4,Badges,4.2,Badge collab HS,feature/badge-collab-hs,P0,Formulaire badge HS - Remplacement - Gestion,Development,"✅ Formulaire badge HS opérationnel",Jour 3,Jour 6,4,3.4,A faire,,Cas hors service
+4,Badges,4.3,Badge collab accès spécifique,feature/badge-collab-acces-spec,P0,Accès spécifique - Zones - Durée - Justification,Development,"✅ Formulaire accès spécifique opérationnel",Jour 5,Jour 8,4,3.4,A faire,,Accès temporaires
+4,Badges,4.4,Badge personnel,feature/badge-perso,P1,Formulaires perso - Standard - Oublié - Désactivation,Development,"✅ Tous badges personnel opérationnels",Jour 7,Jour 12,6,3.4,A faire,,3 types badges perso
+4,Badges,4.5,Dashboard badges collab,feature/dashboard-badge-collab,P1,Vue collaborateur - Demandes badges - Statuts - Actions,UI,"✅ Dashboard collaborateur opérationnel",Jour 10,Jour 14,5,4.1-4.3,A faire,,Vue consolidée
+5,Badges,5.1,Badge prestataire nouveau,feature/badge-presta-new,P0,Formulaire nouveau prestataire - Informations - Accès,Development,"✅ Formulaire prestataire nouveau opérationnel",Jour 1,Jour 5,5,3.4,A faire,,Premier badge prestataire
+5,Badges,5.2,Badge prestataire autres,feature/badge-presta-autres,P0,Renew - Départ - Perdu - HS - Accès spec,Development,"✅ Tous badges prestataire opérationnels",Jour 4,Jour 10,7,5.1,A faire,,5 types badges prestataire
+5,Badges,5.3,Badge autre spécifique,feature/badge-autre-specifique,P1,Formulaires cas particuliers - Justification - Validation,Development,"✅ Formulaire autre spécifique opérationnel",Jour 9,Jour 12,4,3.4,A faire,,Cas particuliers
+5,Badges,5.4,Dashboard manager badges,feature/dashboard-badge-manager,P1,Vue manager - Validations en attente - Vue équipe - Statistiques,UI,"✅ Dashboard manager opérationnel",Jour 11,Jour 14,4,4.5-5.2,A faire,,Vue équipe manager
+5,Badges,5.5,Dashboard RH badges,feature/dashboard-badge-rh,P1,Vue RH globale - Statistiques - Toutes demandes,UI,"✅ Dashboard RH opérationnel",Jour 13,Jour 16,4,4.5-5.2,A faire,,Vue globale RH
+5,Badges,5.6,Release v1.0.0-badges,release/v1.0.0-badges,P0,Finalisation - Tests - Documentation - Tag release,Release,"✅ Release v1.0.0 taggée
+✅ Documentation complète",Jour 15,Jour 20,6,5.1-5.5,A faire,,Première release
+6,Heures Sup,6.1,Table heures_sup_prealable,feature/table-hs-prealable,P0,Création table avec tous champs identifiés - Période - Heures - Motif,Database,"✅ Table heures_sup_prealable créée",Jour 1,Jour 3,3,2.1,A faire,,Utiliser ANALYSE_DETAILLEE_HEURESUP.md
+6,Heures Sup,6.2,Formulaire préalable,feature/hs-prealable-formulaire,P0,Screen saisie préalable - Tous champs - Validation,Development,"✅ Formulaire préalable opérationnel",Jour 4,Jour 8,5,6.1,A faire,,Saisie complète
+6,Heures Sup,6.3,Workflow préalable,feature/workflow-hs-prealable,P0,Workflow Manager → RH - Validations - Notifications,Development,"✅ Workflow préalable complet",Jour 6,Jour 10,5,6.2,A faire,,5 étapes workflow
+6,Heures Sup,6.4,Séquence création préalable,feature/sequence-hs-prealable,P0,CRUD préalable - Sauvegarde - Validation données,Development,"✅ CRUD préalable opérationnel",Jour 8,Jour 12,5,6.2,A faire,,Séquences Convertigo
+6,Heures Sup,6.5,Validations préalable,feature/validations-hs-prealable,P0,Validation Manager - Validation RH - Notifications,Development,"✅ Validations préalable fonctionnelles",Jour 10,Jour 14,5,6.3,A faire,,Multi-validations
+6,Heures Sup,6.6,Dashboard préalable collab,feature/dashboard-hs-prealable-collab,P1,Vue collaborateur - Demandes préalables - Statuts,UI,"✅ Dashboard préalable collaborateur opérationnel",Jour 12,Jour 16,5,6.2-6.5,A faire,,Vue consolidée
+7,Heures Sup,7.1,Table heures_sup_realisation,feature/table-hs-realisation,P0,Création table avec tous champs - Lien préalable - Pointages,Database,"✅ Table heures_sup_realisation créée",Jour 1,Jour 3,3,6.1,A faire,,Tous champs identifiés
+7,Heures Sup,7.2,Lien préalable ↔ réalisation,feature/lien-prealable-realisation,P0,FK explicite - Logique de lien - Sélection préalable,Development,"✅ Lien préalable-réalisation fonctionnel",Jour 4,Jour 7,4,7.1-6.4,A faire,,FK + interface
+7,Heures Sup,7.3,Formulaire réalisation,feature/hs-realisation-formulaire,P0,Screen saisie réalisation - Tous champs - Interface complète,Development,"✅ Formulaire réalisation opérationnel",Jour 6,Jour 10,5,7.1,A faire,,Saisie détaillée
+7,Heures Sup,7.4,Saisie heures détaillées,feature/saisie-heures-detaillees,P0,Interface saisie par jour - Horaires début/fin - Calcul auto,UI,"✅ Interface saisie heures détaillées opérationnelle",Jour 8,Jour 12,5,7.3,A faire,,Saisie par jour
+7,Heures Sup,7.5,Pointages GTA,feature/pointages-gta,P0,Intégration/saisie pointages GTA - Réconciliation - Import possible,Integration,"✅ Pointages GTA gérés",Jour 10,Jour 14,5,7.3,A faire,,Intégration GTA
+7,Heures Sup,7.6,Calcul écarts,feature/calcul-ecarts-prealable,P0,Calcul auto écarts vs préalable - Justification si écart - Affichage,Development,"✅ Calcul écarts fonctionnel",Jour 12,Jour 16,5,7.2-7.4,A faire,,Comparaison automatique
+8,Heures Sup,8.1,Workflow réalisation,feature/workflow-hs-realisation,P0,Workflow Manager → RH → Pointage RH - 6 étapes complètes,Development,"✅ Workflow réalisation complet (6 étapes)",Jour 1,Jour 5,5,7.3,A faire,,Workflow complet
+8,Heures Sup,8.2,Validation Manager réalisation,feature/validation-manager-hs-real,P0,Validation Manager - Vérifications - Cohérence pointages,Development,"✅ Validation Manager réalisation fonctionnelle",Jour 4,Jour 8,5,8.1,A faire,,Vérifications spécifiques
+8,Heures Sup,8.3,Validation RH réalisation,feature/validation-rh-hs-real,P0,Validation RH - Conformité réglementaire - Analyse globale,Development,"✅ Validation RH réalisation fonctionnelle",Jour 6,Jour 10,5,8.2,A faire,,Contrôle RH
+8,Heures Sup,8.4,Pointage RH,feature/pointage-rh,P0,Interface pointage RH final - Réconciliation - Commentaires,UI,"✅ Interface pointage RH opérationnelle",Jour 8,Jour 12,5,8.3,A faire,,Étape finale avant paiement
+8,Heures Sup,8.5,Réconciliation GTA,feature/reconciliation-gta,P0,Réconciliation pointages officiels - Validation GTA - Données officielles,Integration,"✅ Réconciliation GTA fonctionnelle",Jour 10,Jour 14,5,8.4,A faire,,Intégration GTA
+8,Heures Sup,8.6,Cas sans préalable,feature/hs-sans-prealable,P1,Gestion cas exceptionnel - Motif urgence - Validation renforcée,Development,"✅ Cas sans préalable géré",Jour 12,Jour 16,5,8.1,A faire,,Cas exceptionnel
+8,Heures Sup,8.7,Dashboard réalisation,feature/dashboard-hs-realisation,P1,Dashboards complets - Collab - Manager - RH,UI,"✅ Dashboards réalisation opérationnels",Jour 14,Jour 18,5,8.1-8.6,A faire,,Tous dashboards
+8,Heures Sup,8.8,Release v1.1.0-heures-sup,release/v1.1.0-heures-sup,P0,Finalisation - Tests - Documentation - Tag release,Release,"✅ Release v1.1.0 taggée
+✅ Documentation complète",Jour 19,Jour 24,6,8.1-8.7,A faire,,Deuxième release
+9,Transversal,9.1,Centre notifications,feature/centre-notifications,P0,Interface notifications complète - Liste - Filtres - Actions,UI,"✅ Centre notifications opérationnel",Jour 1,Jour 5,5,2.4,A faire,,Interface complète
+9,Transversal,9.2,Notifications workflow,feature/notifications-workflow,P0,Notifications automatiques workflow - Par étape - Par rôle,Development,"✅ Notifications workflow fonctionnelles",Jour 4,Jour 8,5,9.1-2.3,A faire,,Automatisation
+9,Transversal,9.3,Préférences notifications,feature/preferences-notifications,P1,Configuration utilisateur - Types - Fréquences - Canaux,Development,"✅ Préférences notifications opérationnelles",Jour 7,Jour 10,4,9.1,A faire,,Personnalisation
+9,Transversal,9.4,Recherche globale,feature/recherche-globale,P0,Recherche agents - Demandes - Formulaires - Autosuggest,Development,"✅ Recherche globale opérationnelle",Jour 9,Jour 14,6,,A faire,,Recherche unifiée
+9,Transversal,9.5,Filtres avancés,feature/filtres-avances,P1,Filtres par statut - Dates - Types - Agents - Export,UI,"✅ Filtres avancés opérationnels",Jour 12,Jour 16,5,9.4,A faire,,Filtrage puissant
+10,Transversal,10.1,Dossier agent vue,feature/dossier-agent-vue,P0,Table vue consolidée - Calculs - KPIs - Statistiques,Database,"✅ Table dossier_agent_vue créée",Jour 1,Jour 3,3,2.1,A faire,,Vue matérialisée
+10,Transversal,10.2,Interface dossier agent,feature/dossier-agent-ui,P0,Screen dossier agent - Historique - Demandes - Documents,UI,"✅ Interface dossier agent opérationnelle",Jour 4,Jour 8,5,10.1,A faire,,Vue consolidée
+10,Transversal,10.3,Historique complet,feature/historique-complet,P0,Visualisation historique demandes - Timeline - Actions - Acteurs,UI,"✅ Historique complet opérationnel",Jour 6,Jour 10,5,10.2,A faire,,Traçabilité complète
+10,Transversal,10.4,Favoris,feature/favoris,P1,Système favoris formulaires/apps - Ajout - Organisation - Accès rapide,Development,"✅ Système favoris opérationnel",Jour 9,Jour 12,4,,A faire,,Personnalisation
+10,Transversal,10.5,Export PDF/Excel,feature/export-donnees,P1,Export dossiers - Tableaux - Formats multiples - Génération,Development,"✅ Export PDF/Excel opérationnel",Jour 11,Jour 14,4,10.2,A faire,,Export données
+10,Transversal,10.6,Release v1.2.0-transversal,release/v1.2.0-transversal,P0,Finalisation - Tests - Documentation - Tag release,Release,"✅ Release v1.2.0 taggée
+✅ Documentation complète",Jour 15,Jour 20,6,10.1-10.5,A faire,,Troisième release
+11,Applications,11.1,Catalogue apps externes,feature/apps-externes-catalogue,P1,Gestion catalogue apps - CRUD - Métadonnées - Tags,Development,"✅ Catalogue apps externes opérationnel",Jour 1,Jour 5,5,,A faire,,Gestion catalogue
+11,Applications,11.2,Intégration O'Buro,feature/app-oburo,P1,Intégration O'Buro - Lien - Badge état - Métadonnées,Integration,"✅ Intégration O'Buro opérationnelle",Jour 4,Jour 8,5,11.1,A faire,,Première app externe
+11,Applications,11.3,Intégration autres apps,feature/apps-autres,P2,ODAM - Reporting - SecurSafe - Intégrations,Integration,"✅ Autres apps intégrées",Jour 7,Jour 12,6,11.2,A faire,,Apps prioritaires
+11,Applications,11.4,Suivi usage apps,feature/suivi-usage-apps,P2,Statistiques usage - Derniers utilisés - Analytics,Analytics,"✅ Suivi usage apps opérationnel",Jour 11,Jour 14,4,11.1,A faire,,Analytics
+12,Finalisation,12.1,Optimisations performance,feature/optimisations,P1,Optimisations requêtes - Cache - Index - Performance,Optimization,"✅ Optimisations appliquées
+✅ Performance améliorée",Jour 1,Jour 5,5,,A faire,,Performance critique
+12,Finalisation,12.2,Tests E2E,feature/tests-e2e,P1,Tests end-to-end complets - Parcours utilisateurs - Scénarios,Testing,"✅ Tests E2E complets
+✅ Tous scénarios couverts",Jour 4,Jour 10,7,,A faire,,Tests complets
+12,Finalisation,12.3,Documentation utilisateur,feature/doc-utilisateur,P1,Guides utilisateur - Aide contextuelle - Tutoriels - FAQ,Documentation,"✅ Documentation utilisateur complète",Jour 8,Jour 12,5,,A faire,,Guides complets
+12,Finalisation,12.4,Documentation technique,feature/doc-technique,P1,Documentation développeur - Architecture - APIs - Déploiement,Documentation,"✅ Documentation technique complète",Jour 10,Jour 14,5,,A faire,,Doc technique
+12,Finalisation,12.5,Formation équipe,feature/formation,P1,Sessions formation - Utilisateurs - Administrateurs - Support,Formation,"✅ Formation équipe effectuée",Jour 13,Jour 16,4,,A faire,,Formation complète
+12,Finalisation,12.6,Release v1.3.0-mvp,release/v1.3.0-mvp,P0,Finalisation MVP - Tests complets - Documentation finale - Tag release,Release,"✅ Release v1.3.0 taggée
+✅ MVP complet",Jour 17,Jour 24,8,12.1-12.5,A faire,,Release finale MVP
+

@@ -1,0 +1,911 @@
+          body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+/* Masquer le placeholder dans appLayoutComplete */
+.app-container .main-content-placeholder {
+  display: none !important;
+}
+
+/* Le main depuis la page - positionné pour remplacer le placeholder */
+.main-content-from-page {
+  position: fixed;
+  top: 0;
+  left: 80px; /* Espace pour la sidebar */
+  right: 240px; /* Espace pour favoris (par défaut ouvert) */
+  bottom: 100px; /* Laisser de l'espace pour le footer */
+  padding: 0; /* Aucun padding sur le main */
+  margin: 0; /* Aucun margin sur le main */
+  overflow-y: auto;
+  overflow-x: hidden;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  align-items: stretch;
+  justify-content: flex-start;
+  z-index: 1; /* Sous la sidebar et les formulaires */
+  transition: left 0.3s ease, right 0.3s ease;
+  width: calc(100vw - 80px - 240px); /* 100% width moins sidebar et favoris */
+  height: calc(100vh - 100px); /* 100% height moins footer */
+}
+
+/* S'assurer que la sidebar et les formulaires sont au-dessus du main */
+.sidebar {
+  z-index: 100 !important;
+  position: relative;
+}
+
+.formulaires-content {
+  z-index: 100 !important;
+  position: relative;
+}
+
+/* S'assurer que le main ne masque pas le footer */
+.main-content-from-page {
+  z-index: 1 !important;
+}
+
+/* S'assurer que le footer est au-dessus de tout */
+footer.footer,
+.footer {
+  z-index: 1000 !important;
+}
+
+/* Ajuster selon l'état des favoris - le toggle est dans le body */
+#favorites-toggle:not(:checked) ~ .main-content-from-page {
+  right: 60px !important;
+}
+
+#favorites-toggle:checked ~ .main-content-from-page {
+  right: 240px !important;
+}
+
+/* Masquer complètement la sidebar favoris quand fermée - même sélecteur que Page.yaml */
+#favorites-toggle:not(:checked) ~ .app-container .favorites-sidebar,
+#favorites-toggle:not(:checked) ~ .favorites-sidebar {
+  width: 60px !important;
+  min-width: 60px !important;
+  padding: 24px 8px !important;
+  overflow-y: hidden !important;
+}
+
+#favorites-toggle:not(:checked) ~ .app-container .favorites-sidebar .favorites-title,
+#favorites-toggle:not(:checked) ~ .app-container .favorites-sidebar .favorites-check,
+#favorites-toggle:not(:checked) ~ .app-container .favorites-sidebar .favorites-list,
+#favorites-toggle:not(:checked) ~ .favorites-sidebar .favorites-title,
+#favorites-toggle:not(:checked) ~ .favorites-sidebar .favorites-check,
+#favorites-toggle:not(:checked) ~ .favorites-sidebar .favorites-list {
+  display: none !important;
+}
+
+#favorites-toggle:not(:checked) ~ .app-container .favorites-sidebar .favorites-header > img:first-child,
+#favorites-toggle:not(:checked) ~ .favorites-sidebar .favorites-header > img:first-child {
+  transform: rotate(180deg) !important;
+}
+
+#favorites-toggle:not(:checked) ~ .app-container .favorites-sidebar .favorites-header,
+#favorites-toggle:not(:checked) ~ .favorites-sidebar .favorites-header {
+  justify-content: center !important;
+  margin: -8px 0 !important;
+  padding: 8px 0 !important;
+}
+
+#favorites-toggle:checked ~ .app-container .favorites-sidebar,
+#favorites-toggle:checked ~ .favorites-sidebar {
+  width: 240px !important;
+  min-width: 240px !important;
+  padding: 24px 16px !important;
+}
+
+#favorites-toggle:checked ~ .app-container .favorites-sidebar .favorites-title,
+#favorites-toggle:checked ~ .app-container .favorites-sidebar .favorites-check,
+#favorites-toggle:checked ~ .app-container .favorites-sidebar .favorites-list,
+#favorites-toggle:checked ~ .favorites-sidebar .favorites-title,
+#favorites-toggle:checked ~ .favorites-sidebar .favorites-check,
+#favorites-toggle:checked ~ .favorites-sidebar .favorites-list {
+  display: flex !important;
+}
+
+/* Les positions seront gérées par JavaScript dans updateMainPosition() */
+/* CSS de base - sera surchargé par JS */
+.main-content-from-page {
+  left: 80px; /* Par défaut, seulement sidebar */
+  right: 240px; /* Par défaut, favoris ouverts */
+}
+
+.page-header {
+  padding: 32px 24px 24px 32px; /* Padding déplacé ici */
+  margin: 0;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+}
+
+.page-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #1a428a;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.content-example {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 24px;
+  margin-top: 20px;
+  width: 100%;
+  flex: 1;
+  overflow-y: auto;
+  min-height: 0;
+}
+
+.example-card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #212529;
+}
+
+.footer {
+  flex-shrink: 0;
+  margin-top: auto;
+  width: 100%;
+  position: relative;
+  z-index: 100;
+  background: #ffffff;
+}
+
+/* CSS pour favoris - le toggle doit être dans le body pour fonctionner */
+#favorites-toggle:not(:checked) ~ .app-container {
+  padding-right: 60px;
+}
+
+#favorites-toggle:checked ~ .app-container {
+  padding-right: 240px;
+}
+
+#favorites-toggle:checked ~ .app-container .favorites-sidebar {
+  width: 240px;
+  min-width: 240px;
+  padding: 24px 16px;
+}
+
+#favorites-toggle:checked ~ .app-container .favorites-sidebar .favorites-title,
+#favorites-toggle:checked ~ .app-container .favorites-sidebar .favorites-check,
+#favorites-toggle:checked ~ .app-container .favorites-sidebar .favorites-list {
+  display: flex !important;
+}
+
+/* Masquer le toggle favorites */
+.favorites-toggle {
+  display: none !important;
+  visibility: hidden !important;
+  position: absolute !important;
+  opacity: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* ==========================================================================
+   FAVORITES SIDEBAR - Styles complets selon style.css
+   ========================================================================== */
+
+.favorites-sidebar {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #e6e9ec;
+  border-width: 0px 0px 0px 1px;
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  width: 240px;
+  min-width: 240px;
+  transition: width 0.3s ease, min-width 0.3s ease, padding 0.3s ease, opacity 0.3s ease, visibility 0.3s ease;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 500;
+  opacity: 1;
+  visibility: visible;
+}
+
+.favorites-header-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  gap: 12px;
+}
+
+.favorites-header {
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  flex-shrink: 0;
+  position: relative;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  border-radius: 8px;
+  margin: -8px 0 -8px -8px;
+}
+
+.favorites-header:hover {
+  background: #f8f9fa;
+}
+
+.favorites-header > img:first-child {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.favorites-title {
+  color: #1a428a;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  flex: 1;
+}
+
+.favorites-check {
+  background: #0071ce;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  flex-shrink: 0;
+}
+
+.favorites-check img {
+  width: 16px;
+  height: 16px;
+}
+
+.favorites-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  align-self: stretch;
+  position: relative;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.favorite-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  padding: 8px 0;
+  border-bottom: 1px solid #f8f9fa;
+}
+
+.favorite-item:last-child {
+  border-bottom: none;
+}
+
+.favorite-item__icon {
+  flex-shrink: 0;
+}
+
+.favorite-item__info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+}
+
+.favorite-item__name {
+  color: #212529;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.favorite-item__version {
+  color: #6c757d;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.favorite-item__menu {
+  background: transparent;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.favorite-item__menu span {
+  color: #6c757d;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.favorite-item__menu:hover {
+  background: #f8f9fa;
+  border-radius: 4px;
+}
+
+/* Footer positionné en dessous de la navbar, tout le long - avec spécificité maximale */
+footer.footer,
+.footer {
+  position: fixed !important;
+  bottom: 0 !important;
+  left: 80px !important; /* Commence après la sidebar */
+  right: 240px !important; /* S'arrête avant les favoris (par défaut ouvert) */
+  width: calc(100vw - 80px - 240px) !important; /* Largeur calculée */
+  z-index: 1000 !important;
+  background: #1a428a !important; /* Couleur du footer selon style.css */
+  padding: 24px 32px 24px 32px !important;
+  display: flex !important;
+  flex-direction: row !important;
+  row-gap: 24px !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  flex-wrap: wrap !important;
+  align-content: center !important;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1) !important;
+  transition: left 0.3s ease, right 0.3s ease, width 0.3s ease !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Ajuster le footer selon l'état des favoris */
+#favorites-toggle:not(:checked) ~ footer.footer,
+#favorites-toggle:not(:checked) ~ .footer {
+  right: 60px !important;
+  width: calc(100vw - 80px - 60px) !important;
+}
+
+#favorites-toggle:checked ~ footer.footer,
+#favorites-toggle:checked ~ .footer {
+  right: 240px !important;
+  width: calc(100vw - 80px - 240px) !important;
+}
+
+/* Ajuster le footer selon l'état des formulaires */
+#nav-formulaires-toggle:checked ~ footer.footer,
+#nav-formulaires-toggle:checked ~ .footer {
+  left: 350px !important; /* Sidebar (80px) + Formulaires (270px) */
+  width: calc(100vw - 350px - 240px) !important;
+}
+
+#nav-formulaires-toggle:checked ~ #favorites-toggle:not(:checked) ~ footer.footer,
+#nav-formulaires-toggle:checked ~ #favorites-toggle:not(:checked) ~ .footer {
+  width: calc(100vw - 350px - 60px) !important;
+}
+
+/* Pas besoin de padding-bottom sur body ou main */
+body {
+  padding-bottom: 0;
+}
+
+.main-content-from-page {
+  padding-bottom: 0; /* Pas de padding-bottom */
+}
+
+/* ==========================================================================
+   FILTER TABS
+   ========================================================================== */
+
+.filter-tabs {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.filter-tab {
+  border-radius: 6px;
+  padding: 4px 8px 4px 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  transition: all 0.2s ease;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.filter-tab:hover {
+  background-color: #f8f9fa;
+}
+
+.filter-tab--active {
+  background: #1a428a;
+}
+
+.filter-tab--active span {
+  color: #ffffff;
+}
+
+.filter-tab img {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}
+
+/* ==========================================================================
+   APPLICATIONS GRID
+   ========================================================================== */
+
+.applications-grid {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-self: stretch;
+  flex: 1; /* Prend tout l'espace disponible */
+  position: relative;
+  padding: 0 32px 24px 32px; /* Padding déplacé ici */
+  overflow-y: auto; /* Scroll si nécessaire */
+  min-height: 0; /* Important pour le flex */
+}
+
+/* ==========================================================================
+   APPLICATION CARD
+   ========================================================================== */
+
+.app-card {
+  background: #f8f9fa;
+  border-radius: 18px;
+  border-style: solid;
+  border-color: #cdd3d9;
+  border-width: 1px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 280px;
+  max-width: 400px;
+  height: 320px;
+  min-height: 320px;
+  position: relative;
+  flex: 1 0 320px;
+}
+
+.app-card__header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  height: 95px;
+  min-height: 95px;
+}
+
+.app-card__title-section {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  padding-right: 4px;
+}
+
+.app-card__title-content {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.app-icon {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-icon--primary {
+  background: #dbe7ff;
+  border-radius: 6px;
+}
+
+.app-icon--secondary {
+  background: #008088;
+  border-radius: 6px;
+}
+
+.app-icon--empty {
+  background: #1a428a;
+  border-radius: 6px;
+}
+
+.app-icon img {
+  height: auto;
+  position: absolute;
+}
+
+/* Application Icon Positioning */
+.app-icon img[src="app-icon-oburo.svg"] {
+  left: 13px;
+  top: 9px;
+  aspect-ratio: 16.69/25;
+  width: 19px;
+}
+
+.app-icon img[src="app-icon-secursafe.svg"] {
+  left: 9px;
+  top: 9px;
+  aspect-ratio: 22.24/25;
+  width: 26px;
+}
+
+/* HeureSup specific icon parts */
+.app-icon__part1 {
+  background: #1a428a;
+  border-radius: 4px;
+  width: 20px;
+  height: 23px;
+  position: absolute;
+  left: 12px;
+  top: 11px;
+}
+
+.app-icon__part2 {
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  overflow: visible;
+  z-index: 2;
+}
+
+.app-icon__part3,
+.app-icon__part4 {
+  background: #1a428a;
+  border-radius: 1px;
+  width: 12px;
+  height: 2px;
+  position: absolute;
+  left: 16px;
+}
+
+.app-icon__part3 {
+  top: 9px;
+}
+
+.app-icon__part4 {
+  top: 35px;
+}
+
+.app-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.app-info__name {
+  color: #212529;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+  max-width: 180px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  line-height: 1.2;
+}
+
+.app-info__version {
+  color: #495057;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+
+.app-card__favorite {
+  flex-shrink: 0;
+  position: relative;
+  background: transparent;
+  border-radius: 100px;
+  border: 2px solid #6c757d;
+  padding: 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+  min-height: 24px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.app-card__favorite:hover {
+  transform: scale(1.1);
+  border-color: #0071ce;
+}
+
+.app-card__favorite img {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.app-card__favorite--active {
+  background-color: #0071ce;
+  border: 2px solid #0071ce;
+}
+
+.app-card__badge {
+  background: #fff4d2;
+  border-radius: 4px;
+  padding: 4px 8px 4px 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  height: 24px;
+}
+
+.app-card__badge img {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.app-card__badge--new {
+  background: #fff4d2;
+}
+
+.app-card__badge--new span {
+  color: #402e01;
+}
+
+.app-card__badge--update {
+  background: #dbe7ff;
+}
+
+.app-card__badge--update span {
+  color: #1d458c;
+}
+
+.app-card__badge--beta {
+  background: #f1cbf4;
+}
+
+.app-card__badge--beta span {
+  color: #8b194d;
+}
+
+.app-card__badge span {
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+}
+
+.app-card__description {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  height: 48px;
+  overflow: hidden;
+  line-height: 1.6;
+}
+
+.app-card__tags {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  row-gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  height: 60px;
+  overflow: hidden;
+}
+
+.tag {
+  border-radius: 4px;
+  padding: 4px 8px 4px 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  height: 24px;
+  font-size: 12px;
+}
+
+.tag span {
+  color: #212529;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+}
+
+.tag img {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.tag--yellow {
+  background: #ffe38a;
+}
+
+.tag--grey {
+  background: #e6e9ec;
+}
+
+.tag--blue {
+  background: #dbe7ff;
+}
+
+.tag--green {
+  background: #b8f9bd;
+}
+
+.tag--cyan {
+  background: #affbff;
+}
+
+.tag--rose {
+  background: #f8c5c2;
+}
+
+.tag--orange {
+  background: #ffd5b7;
+}
+
+.tag--red {
+  background: #ffd3d6;
+}
+
+.app-card__btn {
+  border-radius: 14px;
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  margin-top: auto;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+}
+
+.app-card__btn:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.app-card__btn-inner {
+  background: #1a428a;
+  border-radius: 12px;
+  padding: 8px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.app-card__btn img {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
+
+.app-card__btn-inner span {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: relative;
+}
